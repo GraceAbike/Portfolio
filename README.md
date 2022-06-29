@@ -3,7 +3,7 @@
 ## Project : Portfolio
 
 ## Description
-For this repository, I've created html templates and styling files in order to built a responsive portfolio ,  which can help to easy explorate  profiles from differents devices.
+For this repository, I've created html templates and styling files in order to built a responsive portfolio,  which can help to easy explorate  profile differents devices.
 
 ## Built With
 - HTML

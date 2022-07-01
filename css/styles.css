@@ -5,13 +5,13 @@
 }
 
 body {
-  font-family: 'Poppins' , sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .toolbar {
   display: flex;
   position: absolute;
-  left: calc(50% - 375px / 2);
+  left: calc (50% - 375px / 2);
   top: 5px;
   width: 375px;
   justify-content: space-between;

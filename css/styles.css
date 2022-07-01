@@ -6,48 +6,42 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: #e5e5e5;
 }
 
 .toolbar {
   display: flex;
-  position: absolute;
-  left: calc (50% - 375px / 2);
-  top: 5px;
-  width: 375px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 0.3rem 1rem;
 }
 
 a.logo {
   text-decoration: none;
-  padding-top: 9px;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 15px;
   color: #6070ff;
-  margin-top: 30px;
-  padding-left: 15px;
 }
 
 .hamburger {
   text-decoration: none;
-  padding-top: 28px;
-  left: 18px;
-  width: 30px;
-  height: 24px;
-  margin-right: 10px;
+  /* width: 30px; */
+ 
 }
 
 .presentation-page {
   background-image: url(../images/Mobile.png);
   background-repeat: no-repeat;
-  position: absolute;
-  height: 609px;
-  width: 375px;
-  left: calc (50% - 375px / 2);
-  top: 100px;
-  padding: 135px 14px;
+  border-bottom-left-radius: 5rem;
+  padding: 8rem 1rem;
+  margin-top: 3.5rem;
+  background-color: #ffffff;
 }
 
 .presentation-text {
@@ -70,15 +64,18 @@ a.logo {
   margin-left: 4px;
 }
 
-.contact ul {
-  display: flex;
-  align-items: center;
+.social {
   padding-top: 12px;
   gap: 19px;
   list-style: none;
   color: #6070ff;
   font-size: 16;
   font-weight: 500;
+}
+
+.social li {
+  display: inline;
+  margin: 0.5rem;
 }
 
 h3 {
@@ -90,4 +87,64 @@ h3 {
   margin-left: 4px;
   font-weight: 800;
   height: 24px;
+}
+.card {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 1rem;
+  border-radius: 16px;
+}
+
+.card li {
+  list-style-type: none;
+  display: inline;
+  background: #EBEBFF;
+  border-radius: 8px;
+  padding: 0.3rem 0.6rem;
+  margin: 0.2rem;
+  color: #396df2;
+}
+
+.card ul {
+  margin: 1rem 0;
+}
+
+.card h3 {
+  color: black;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 1rem 0 2rem;
+}
+
+.card h4 {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 1.5rem 0;
+}
+
+.light {
+  color: #7a869a;
+}
+
+.btn {
+  color: #396df2;
+  padding: 0.8rem;
+  border: solid #396df2 2px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  border-radius: 16px;
+  margin: 1rem 0;
+  display: inline-block;
+}
+
+.work {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin: 4rem 1rem;
+}
+
+.card img {
+  width: 100%;
 }

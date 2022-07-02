@@ -149,16 +149,23 @@ h3 {
   width: 100%;
 }
 
-.about {
-  background: #ffffff
+.presentation {
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 5rem;
+  padding: 8rem 1rem;
+  margin-top: 3.5rem;
+  background-color: #ffffff;
 }
 
 .about h2 {
   color: #172b4d;
+  /* line-height: 52px;
+  height: 101px; */
 }
 
-.language {
-
+.arrow-down li {
+  /* list-style: none;
+  width: rem(80);
+  height: rem(50);
+  text-align: center; */
 }
-
-.

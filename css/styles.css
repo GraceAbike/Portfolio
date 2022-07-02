@@ -98,7 +98,7 @@ h3 {
 .card li {
   list-style-type: none;
   display: inline;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   padding: 0.3rem 0.6rem;
   margin: 0.2rem;
@@ -148,3 +148,17 @@ h3 {
 .card img {
   width: 100%;
 }
+
+.about {
+  background: #ffffff
+}
+
+.about h2 {
+  color: #172b4d;
+}
+
+.language {
+
+}
+
+.

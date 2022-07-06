@@ -151,21 +151,19 @@ h3 {
 
 .presentation {
   background-repeat: no-repeat;
-  border-bottom-left-radius: 5rem;
   padding: 8rem 1rem;
   margin-top: 3.5rem;
   background-color: #ffffff;
+  height: 1263px;
 }
 
-.about h2 {
-  color: #172b4d;
-  /* line-height: 52px;
-  height: 101px; */
-}
-
-.arrow-down li {
-  /* list-style: none;
-  width: rem(80);
-  height: rem(50);
-  text-align: center; */
+.presentation p {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+  width: 327px;
+  height: 146px;
+  color: #344563;
+  margin-top: 19px;
+  margin-left: 4px;
 }

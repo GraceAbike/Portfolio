@@ -6,52 +6,44 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: #f7f7f9;
 }
 
 .toolbar {
   display: flex;
-  position: absolute;
-  left: calc (50% - 375px / 2);
-  top: 5px;
-  width: 375px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 0.3rem 1rem;
 }
 
 a.logo {
   text-decoration: none;
-  padding-top: 9px;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 15px;
   color: #6070ff;
-  margin-top: 30px;
-  padding-left: 15px;
 }
 
 .hamburger {
   text-decoration: none;
-  padding-top: 28px;
-  left: 18px;
-  width: 30px;
-  height: 24px;
-  margin-right: 10px;
 }
 
 .presentation-page {
   background-image: url(../images/Mobile.png);
   background-repeat: no-repeat;
-  position: absolute;
-  height: 609px;
-  width: 375px;
-  left: calc (50% - 375px / 2);
-  top: 100px;
-  padding: 135px 14px;
+  border-bottom-left-radius: 5rem;
+  padding: 6.9rem 1rem;
+  margin-top: 2rem;
+  background-color: #fff;
 }
 
 .presentation-text {
-  font-size: 52px;
+  font-size: 40px;
   font-style: normal;
   align-items: center;
   color: #172b4d;
@@ -60,19 +52,16 @@ a.logo {
 }
 
 .presentation-page p {
+  font-weight: 400;
   font-size: 16px;
   font-style: normal;
   line-height: 24px;
-  width: 327px;
-  height: 146px;
   color: #344563;
   margin-top: 19px;
   margin-left: 4px;
 }
 
-.contact ul {
-  display: flex;
-  align-items: center;
+.social {
   padding-top: 12px;
   gap: 19px;
   list-style: none;
@@ -81,13 +70,183 @@ a.logo {
   font-weight: 500;
 }
 
+.social li {
+  display: inline;
+  margin: 0.5rem;
+}
+
 h3 {
   font-size: 15px;
   font-style: normal;
   line-height: 24px;
   color: #7f8cff;
-  margin-top: 4px;
+  margin-top: 12px;
   margin-left: 4px;
-  font-weight: 800;
-  height: 24px;
+  font-weight: 500;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 1rem;
+  border-radius: 16px;
+  border: 1px solid #dfe1e6;
+  color: #344563;
+}
+
+.card li {
+  list-style-type: none;
+  display: inline;
+  background: #ebebff;
+  border-radius: 8px;
+  padding: 0.3rem 0.6rem;
+  margin: 0.2rem;
+  color: #396df2;
+}
+
+.card ul {
+  margin: 1rem 0;
+}
+
+.card h3 {
+  color: #172b4d;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 44px;
+  padding-top: 12px;
+}
+
+.card h4 {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.light {
+  color: #7a869a;
+}
+
+.btn {
+  color: #396df2;
+  padding: 0.8rem;
+  border: solid #396df2 2px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  border-radius: 16px;
+  width: max-content;
+  margin: 1rem 0;
+  display: inline-block;
+}
+
+.work {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 88px;
+  padding: 114px 24px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.presentation {
+  background-repeat: no-repeat;
+  padding: 0 24px;
+  margin-top: 0;
+  background-color: #fff;
+  border-top-right-radius: 5rem;
+}
+
+.prisentation-text {
+  padding-top: 114px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.presentation p {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 19px;
+  margin-left: 4px;
+}
+
+.language-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  list-style-type: none;
+}
+
+li.frame {
+  list-style-type: none;
+  display: none inline;
+  border-radius: 8px;
+  padding: 0.3rem 1rem;
+  margin: 0.5rem;
+  background: #f7f7f9;
+}
+
+span.list {
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #253858;
+  position: absolute;
+  margin: 1rem;
+}
+
+.toggle-btn {
+  position: relative;
+  display: block;
+  color: #000;
+  width: 300px;
+  padding: 10px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.arrow {
+  border: 2px solid #acb7c3;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+}
+
+.arrow.down {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(45deg);
+  cursor: pointer;
+  position: absolute;
+  left: 90.67%;
+  right: 70.5%;
+  top: 30%;
+  bottom: 35%;
+}
+
+.arrow.right {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(-45deg);
+  cursor: pointer;
+  position: absolute;
+  left: 90.4%;
+  right: 50.5%;
+  top: 50%;
+  bottom: 30%;
+}
+
+.hr {
+  padding-top: 1.5rem;
+  color: #dfe1e6;
 }

@@ -86,6 +86,7 @@ h3 {
 }
 
 .card {
+  float:none;
   display: flex;
   flex-direction: column;
   background-color: #fff;

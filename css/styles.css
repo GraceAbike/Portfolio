@@ -264,7 +264,7 @@ span.list {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-size: 16.3rem;
+  background-size: 16.5rem;
 }
 
 .contact-title {
@@ -311,6 +311,7 @@ textarea {
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
+  line-height: 24px;
   width: 100%;
   padding: 12px;
   border: 1px solid #cfd8dc;
@@ -321,6 +322,7 @@ textarea {
 }
 
 button {
+  font-family: 'Poppins', sans-serif;
   background-color: #fff;
   color: #6070ff;
   border-radius: 8px;
@@ -333,6 +335,25 @@ button {
   font-size: 17px;
   line-height: 24px;
   margin-bottom: 10px;
+}
+
+button:hover {
+  background: #6070ff;
+  color: #fff;
+  font-size: 17px;
+}
+
+button:active {
+  background: #2230d2;
+  color: #fff;
+  font-size: 17px;
+}
+
+button:disabled {
+  background: #e5e5e5;
+  cursor: not-allowed;
+  color: #5e6c84;
+  font-size: 17px;
 }
 
 .bottom-bar {

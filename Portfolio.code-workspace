@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "Portfolio",
+			"path": "."
+		},
+		{
+			"name": ".github",
+			"path": "..\\..\\OneDrive\\Attachments\\Desktop\\linters-config\\html-css\\.github"
+		}
+	],
+	"settings": {
+		"files.autoSave": "afterDelay",
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "Portfolio"
+	}
+}

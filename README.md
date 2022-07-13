@@ -1,6 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 ## Project : Portfolio
+![](Portfolio.png)
 
 ## Description
 For this repository, I've created html templates and styling files in order to built a responsive portfolio,  which can help to easy explorate  profile differents devices.
@@ -55,7 +56,7 @@ Give a ⭐️ if you like this project!
 Hat tip to anyone whose code was used.
 - Inspiration 💘
 - Microverse program ⚡
-- My standup team 🏹
+- All my team 🏹
 - My family's support 🙌
 ## 📝 License
 

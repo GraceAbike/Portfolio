@@ -12,6 +12,7 @@ body {
 .toolbar {
   display: flex;
   position: fixed;
+  flex-wrap: nowrap;
   left: 0;
   top: 0;
   width: 100%;
@@ -30,7 +31,21 @@ a.logo {
 }
 
 .hamburger {
+  margin-top: 5px;
+  width: 40px;
+  height: 40px;
+  bottom: 14px;
+  border-radius: 8px;
   text-decoration: none;
+}
+
+.div-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-link {
+  display: none;
 }
 
 .presentation-page {
@@ -154,6 +169,18 @@ h3 {
   width: 100%;
 }
 
+.div-img {
+  display: none;
+}
+
+.nav-img {
+  display: none;
+}
+
+section.card {
+  display: none;
+}
+
 .presentation {
   background-repeat: no-repeat;
   padding: 0 24px;
@@ -249,7 +276,7 @@ span.list {
   bottom: 30%;
 }
 
-.hr {
+hr {
   color: #dfe1e6;
 }
 
@@ -363,4 +390,205 @@ button:disabled {
   height: 5px;
   margin-bottom: 5px;
   margin-top: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  .hamburger {
+    display: none;
+  }
+
+  div.main-card {
+    display: none;
+  }
+
+  .toolbar {
+    padding-left: 10.77%;
+    padding-right: 10.77%;
+  }
+
+  .div-link {
+    display: inline;
+    margin-right: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  .template-1 {
+    position: relative;
+    width: 1440px;
+    height: 5125px;
+    background: #f4f5f7;
+  }
+
+  .presentation-page {
+    background-image: url(../images/Mbile.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-left: 5px;
+    margin-right: -60px;
+  }
+
+  .home-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 12px;
+    width: 920px;
+    height: 268px;
+    margin-top: 159px;
+    margin-left: 260px;
+    margin-right: 260px;
+  }
+
+  .work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 142px;
+    gap: 142px;
+    width: 1440px;
+    height: 2694px;
+    left: 0;
+    top: 917px;
+  }
+
+  /* .card {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    box-sizing: border-box;
+    height: 496px;
+    width: 1156px;
+  }
+
+  section.card {
+    display: inline;
+  }
+
+  .card img {
+    display: none;
+  }
+
+  img.div-img {
+    display: inline;
+    width: 544px;
+    height: 448;
+    transition: all 0.5s ease-out;
+  }
+
+  img.nav-img {
+    display: inline;
+    margin-left: 550px;
+    margin-top: -365px;
+    width: 544px;
+    height: 448px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .card-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 10%;
+    padding-left: 15px;
+    width: 48.05%;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 10%;
+    padding-left: 15px;
+    width: 48.05%;
+  }
+
+  .presentation {
+    float: left;
+    background-color: #fff;
+    width: 1440px;
+    height: 924px;
+    left: 1440px;
+    top: 4535px;
+  }
+
+  div.about-me {
+    float: left;
+    padding: 0;
+    gap: 24px;
+    width: 447px;
+    height: 392px;
+    left: 142px;
+    top: 3753px;
+  }
+
+  .skill-list {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 0 !important;
+    width: 684px !important;
+    height: 360px !important;
+    left: 614px !important;
+    top: 3753px !important;
+  }
+
+  .frame {
+    float: left;
+    width: 122px;
+    height: 120px;
+    padding: 5%;
+  }
+
+  span.list {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 20px;
+    color: #253858;
+    margin-top: 70px;
+    margin-left: -45px;
+  }
+
+  .arrow.down,
+  .arrow.right {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(-45deg);
+    cursor: pointer;
+    position: absolute;
+    left: 200.4%;
+    right: 50.5%;
+    top: 50%;
+    bottom: 30%;
+  }
+
+  hr {
+    margin-right: -300px;
+  }
+
+  h3 {
+    width: 496px;
+    height: 46px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+  }
+
+  .form-section {
+    width: 1440px;
+    height: 846px;
+    left: 0;
+    top: 5125px;
+  } */
 }

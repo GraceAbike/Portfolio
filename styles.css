@@ -603,4 +603,21 @@ textarea {
   .about .connect-media {
     margin-left: -35px;
   }
+
+  .home-content h1 {
+    animation: heading 3s linear;
+  position: relative;
+  }
+
+  @keyframes heading {
+    from {
+      left: 0;
+    }
+  
+    to {
+      left: 100%;
+    }
+  }
+  
+
 }

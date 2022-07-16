@@ -457,7 +457,7 @@ button:disabled {
     top: 917px;
   }
 
-  /* /* .card {
+  .card {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -498,7 +498,7 @@ button:disabled {
     padding-bottom: 10%;
     padding-left: 15px;
     width: 48.05%;
-  } */
+  }
 
   .flex {
     display: flex;

@@ -12,11 +12,18 @@
     <title>Portfolio</title>
   </head>
   <body>
+    <section class="template-1">
     <header class="toolbar">
       <a class="logo" href="#my_logo">Grace Abike</a>
-      <nav class="hamburger"><img src="../images/Menu.png" alt="menu" /></nav>
+      <img class="hamburger" src="../images/Menu.png" alt="menu">
+      <nav class="div-list">
+        <a class="div-link" href="#portfolio">Portfolio</a>
+        <a class="div-link" href="#about">About</a>
+        <a class="div-link" href="#contact">Contact</a>
+      </nav>
     </header>
     <section class="presentation-page">
+      <div class="home-text">
       <h1 class="presentation-text">I’m Grace<br>Glad to see<br>you!</h1>
       <p>
         I’m a software developer! I can help you build a product, feature or
@@ -30,14 +37,17 @@
         <li><a href="https://github.com/GraceAbike"><img src="../images/Git.png" alt="Github link"></a></li>
         <li><a href="https://angel.co/u/grace-abike"><img src="../images/Min.png" alt="Angel link"></a></li>
       </ul>
+      </div>
   </section>
     <section class="work">
       <article class="card">
-        <img src="../images/Snapshoot.png" alt="photo image">
-        <h3>Tonic</h3>
-        <h4 class="discription">CANOPY 
-          <span class="light">&#8226; back and dev &#8226; 2015</span>
-        </h4>
+        <img class="images" src="./images/Snapshoot.png" alt="photo image">
+        <img class="div-img" src="./images/Snapshoot-Por1.png" alt="Portfolio-img">
+        <div class="card-details">
+           <h3>Tonic</h3>
+           <h4 class="discription">CANOPY 
+              <span class="light">&#8226; Back End Dev &#8226; 2015</span>
+            </h4>
         <p>
           A daily selection of privately personalized reads; no accounts or
           sign-ups required.
@@ -47,10 +57,75 @@
           <li>css</li>
           <li>javascript</li>
         </ul>
-        <button class="btn" type="button">See Project</button>
+          <button class="btn" type="button">See Project</button>
+       </div>
       </article>
+<!-- 
+      <section class="card">
+        <nav class="flex">
+        <h3>Multi-Post Stories</h3>
+        <h4 class="discriptoin">FACEBOOK
+        <span class="light">&#8226; Full Stack Dev &#8226; 2015</span>
+      </h4>
+      <p>Experimental content creation feature that 
+        allows users to add to an existing story over 
+        the course of a day without spamming their friends.
+      </p>
+      <ul class="tags">
+        <li>html</li>
+        <li>Ruby on rails</li>
+        <li>css</li>
+        <li>javaScript</li>
+      </ul>
+      <button class="btn" type="button">See Project</button>
+    <img class="nav-img" src="./images/SnapshootP.png" alt="snapshoot image">  
+    </nav>
+      </section> -->
+<!-- 
       <article class="card">
-        <img src="../images/Snapshoot-m.png" alt="Snapshoot image">
+        <img class="div-img" src="./images/Snapshoot.png" alt="Portfolio-img">
+        <div class="card-details">
+           <h3>Facebook 360</h3>
+           <h4 class="discription">FACEBOOK
+              <span class="light">&#8226; Full Stack Dev &#8226; 2015</span>
+            </h4>
+        <p>
+          Exploring the future of media in Facebook's first Virtual Reality app; 
+          a place to discover and enjoy 360 photos and videos on Gear VR.
+        </p>
+        <ul class="tags">
+          <li>html</li>
+          <li>Ruby on rails</li>
+          <li>css</li>
+          <li>javascript</li>
+        </ul>
+          <button class="btn" type="button">See Project</button>
+       </div>
+      </article> -->
+
+      <!-- <section class="card">
+        <nav class="flex">
+        <h3>Uber Navigation</h3>
+        <h4 class="discriptoin">Uber
+        <span class="light">&#8226; Lead Developer &#8226; 2018</span>
+      </h4>
+      <p>A smart assistant to make driving more safe, efficient,
+         and fun by unlocking your most expensive computer: your car.
+      </p>
+      <ul class="tags">
+        <li>html</li>
+        <li>Ruby on rails</li>
+        <li>css</li>
+        <li>javaScript</li>
+      </ul>
+      <button class="btn" type="button">See Project</button>
+    <img class="nav-img" src="./images/Snapshoot-m.png" alt="snapshoot image">  
+    </nav>
+      </section> -->
+
+       <div class="main-card">
+      <article class="card">
+        <img src="./images/Snapshoot-m.png" alt="Snapshoot image">
         <h3>Multi-Post<br>Stories</h3>
         <h4 class="discription">CANOPY
           <span class="light">&#8226; back and dev &#8226; 2015</span>
@@ -65,10 +140,12 @@
           <li>javascript</li>
         </ul>
         <button class="btn" type="button">See Project</button>
-
+        </div>
       </article>
+        
+      <div class="main-card">
       <article class="card">
-        <img src="../images/Snapshoots.png" alt="Snap image">
+        <img src="./images/Snapshoots.png" alt="Snap image">
         <h3>Tonic</h3>
         <h4 class="discription">Tonic
           <span class="light">&#8226; back and dev &#8226; 2015</span>
@@ -83,9 +160,12 @@
           <li>javascript</li>
         </ul>
         <button class="btn" type="button">See Project</button>
+        </div>
       </article>
+
+      <div class="main-card">
       <article class="card">
-        <img src="../images/SnapshootP.png" alt="snapshoot image">
+        <img src="./images/SnapshootP.png" alt="snapshoot image">
         <h3>Tonic</h3>
         <h4 class="discription">CANOPY 
           <span class="light">&#8226; back and dev &#8226; 2015</span>
@@ -99,12 +179,17 @@
           <li>css</li>
           <li>javascript</li>
         </ul>
-<button class="btn" type="button">See Project</button>
-      </article>
+      <button class="btn" type="button">See Project</button>
+    </div>  
+    </article>
       </section>
+      
     <section class="presentation">
+      <div class="about-me">
      <h2 class="prisentation-text"> About<br> Me Grace</h2>
+     <div class="paragraf">
      <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+    </div>
      <h3>LET’S CONNECT</h3>
       <ul class="social">
         <li><a href="https://twitter.com/GraceAbike1"><img src="../images/Twitt.png" alt="Twitter link"></a></li>
@@ -114,17 +199,19 @@
         <li><a href="https://angel.co/u/grace-abike"><img src="../images/Min.png" alt="Angel link"></a></li>
       </ul>
       <button class="btn" type="button">Get my resume</button>
-  <div class="skill-list">
+    </div>  
+      <div class="skill-list">
   <ul class="language-list">
     <li><a class="toggle-btn" href="#">Languages
     <span class="arrow down"></span>
     </a></li>
-    
+    <div class="row">
     <li class="frame"><img src="../images/Ellipse1.png" alt="javascript image"><span class="list">JavaScript</span></li>
     <li class="frame"><img src="../images/Ellipse1(1).png" alt="html image"><span class="list">HTML</span></li>
     <li class="frame"><img src="../images/Ellipse1(3).png" alt="css image"><span class="list">CSS</span></li>
+  </div>
     <li><a class="toggle-btn" href="#">Frameworks
-    <span class="arrow right"></span></a></li>
+      <span class="arrow right"></span></a></li>
   <li class="hr"><hr></li>
     <li><a class="toggle-btn" href="#">Skill<span class="arrow right"></span></a></li>
   <li class="hr"><hr></li>
@@ -142,6 +229,7 @@
         <span></span>
       </form>
       <hr class="bottom-bar">
+    </section>
     </section>
   </body>
 </html>

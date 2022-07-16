@@ -558,7 +558,7 @@ button:disabled {
     margin-left: -45px;
   }
 
-  /* .arrow.down,
+  .arrow.down,
   .arrow.right {
     transform: rotate(45deg);
     -webkit-transform: rotate(-45deg);
@@ -590,5 +590,5 @@ button:disabled {
     height: 846px;
     left: 0;
     top: 5125px;
-  } */ */
+  } 
 }

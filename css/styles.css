@@ -429,7 +429,7 @@ button:disabled {
     background-repeat: no-repeat;
     height: 100vh;
     margin-left: 5px;
-    margin-right: -60px;
+    margin-right: -450px;
   }
 
   .home-text {
@@ -574,21 +574,57 @@ button:disabled {
     margin-right: -300px;
   }
 
-  h3 {
-    width: 496px;
-    height: 46px;
+  .presentation-text {
+    width: 920px;
+    height: 122px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #091e42;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.37px;
+  }
+
+  .form-section {
+    background-image: url(../images/contactform.png);
+    background-repeat: no-repeat;
+    background-size: 80rem;
+  }
+
+  .bottom-bar {
+    display: none;
+  }
+
+  .contact-title {
+    width: 801px;
+    height: 56px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    color: #091e42;
+    margin-top: -50px;
   }
 
-  .form-section {
-    width: 1440px;
-    height: 846px;
-    left: 0;
-    top: 5125px;
-  } 
+  .contact-parag {
+    width: 569px;
+    height: 102px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
+  }
+
+  form.contact {
+    padding: 0;
+    gap: 27px;
+    width: 447px;
+    height: 395px;
+  }
 }

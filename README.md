@@ -1,7 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 ## Project : Portfolio
-![](Portfolio.png)
+
+Use GitHub Pages to deploy web pages.
+Demonstrate ability to ask clarifying questions about ambiguous requirements.
+
+![Photo_image](Portfolio.png)
 
 ## Description
 For this repository, I've created html templates and styling files in order to built a responsive portfolio,  which can help to easy explorate  profile differents devices.
@@ -10,6 +14,10 @@ For this repository, I've created html templates and styling files in order to b
 - HTML
 - CSS
 - Git & Github
+
+### Live Demo
+
+[Live Demo link](https://graceabike.github.io/Portfolio/)
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
 
@@ -38,9 +46,10 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Grace Abike**
 
-- GitHub: @GraceAbike
-- Twitter: @GraceAbike1
-- LinkedIn: Grace Abike
+- GitHub: [@GraceAbike](https://github.com/GraceAbike)
+- Twitter: [@GraceAbike1](https://twitter.com/GraceAbike1)
+- LinkedIn: [Grace Abike](https://www.linkedin.com/in/grace-abike-02770522a/)
+- Angel: [Grace-Abike](https://angel.co/u/grace-abike)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!

@@ -571,15 +571,9 @@ textarea {
     height: 111px;
     border-radius: 8px;
     padding: 25px;
-  }
-
-  .languages li img {
-    padding-left: 40px;
-  }
-
-  h5 {
-    padding-top: 25px;
-    margin-right: -35px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
   }
 
   /* -------------Contact Form------------------ */

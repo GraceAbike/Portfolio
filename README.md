@@ -5,7 +5,7 @@
 Use GitHub Pages to deploy web pages.
 Demonstrate ability to ask clarifying questions about ambiguous requirements.
 
-![Photo_image]
+![Photo_image](image.png)
 
 ## Description
 For this repository, I've created html templates and styling files in order to built a responsive portfolio,  which can help to easy explorate  profile differents devices.
@@ -17,7 +17,7 @@ For this repository, I've created html templates and styling files in order to b
 
 ### Live Demo
 
-[Live Demo link]
+[Live Demo link](https://github.com/GraceAbike/Portfolio.git)
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
 

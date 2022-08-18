@@ -199,7 +199,7 @@ h3 {
   width: 20%;
 }
 
-/* .button {
+.button {
   display: flex;
   text-align: center;
   align-items: center;
@@ -212,7 +212,7 @@ h3 {
   border: 0;
   font-size: 12px;
   cursor: pointer;
-} */
+}
 
 /* The Mobile background Card 2 */
 /* .mobile-card2 {

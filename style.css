@@ -62,7 +62,7 @@ p {
   padding: 20px;
 }
 
-/* .social-media ul {
+.social-media ul {
   display: flex;
   justify-content: center;
   margin: 10px 0 0;
@@ -81,7 +81,7 @@ p {
   padding: 30px;
 }
 
-.content-section {
+/* .content-section {
   background-image: url(/imgs/Ellipse18.svg);
   background-repeat: no-repeat;
   background-position: 0 -50px;

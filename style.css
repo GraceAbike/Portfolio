@@ -248,3 +248,16 @@ h3 {
   flex-wrap: wrap;
   text-align: center;
 }
+
+.button:active {
+  background: #5e42d7;
+}
+
+.button:disabled {
+  background: #2a2b33;
+  cursor: not-allowed;
+}
+
+.button:hover {
+  background: #7d73fc;
+}

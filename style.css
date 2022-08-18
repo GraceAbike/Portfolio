@@ -215,7 +215,7 @@ h3 {
 }
 
 /* The Mobile background Card 2 */
-/* .mobile-card2 {
+.mobile-card2 {
   background: url("imgs/Ellipse20.svg");
   background-repeat: no-repeat;
   background-position: right;
@@ -227,7 +227,7 @@ h3 {
   align-items: right;
 }
 
-.mobile-card3 {
+/* .mobile-card3 {
   background: url("imgs/Ellipse21.svg");
   background-repeat: no-repeat;
   background-position: left;
@@ -236,9 +236,9 @@ h3 {
   flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
-}
+} */
 
-.mobile-card4 {
+/* .mobile-card4 {
   background: url("imgs/Ellipse22.svg");
   background-repeat: no-repeat;
   background-position: right;

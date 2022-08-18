@@ -81,7 +81,7 @@ p {
   padding: 30px;
 }
 
-/* .content-section {
+.content-section {
   background-image: url(/imgs/Ellipse18.svg);
   background-repeat: no-repeat;
   background-position: 0 -50px;
@@ -143,4 +143,4 @@ li {
   display: flex;
   text-align: center;
   justify-content: center;
-} */
+}

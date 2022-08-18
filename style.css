@@ -149,8 +149,8 @@ h3 {
 }
 
 /* Work section Cards */
-/* .work { */
-  /* color: #9490ff;
+.work {
+  color: #9490ff;
   font-size: 40px;
   text-align: left;
   vertical-align: center;
@@ -183,7 +183,7 @@ h3 {
   color: #dcdce8;
 }
 
-.list-items {
+/* .list-items {
   display: flex;
   justify-content: center;
   list-style: none;

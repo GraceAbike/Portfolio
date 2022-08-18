@@ -238,7 +238,7 @@ h3 {
   text-align: center;
 }
 
-/* .mobile-card4 {
+.mobile-card4 {
   background: url("imgs/Ellipse22.svg");
   background-repeat: no-repeat;
   background-position: right;
@@ -247,4 +247,4 @@ h3 {
   flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
-} */
+}

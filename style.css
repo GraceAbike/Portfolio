@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   font-family: 'Roboto', sans-serif;
   background-color: #191765;
   color: #fff;
@@ -43,12 +44,6 @@ h2 {
   font-weight: 500;
   text-align: center;
   color: #edecff;
-}
-
-h3 {
-  padding: 30px;
-  font-size: 32px;
-  text-align: left;
 }
 
 p {
@@ -133,6 +128,14 @@ li {
   justify-content: center;
 }
 
+h3 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  text-align: left;
+}
+
 .element-right h3 {
   color: #a2a3ae;
   margin-left: 15px;
@@ -143,4 +146,114 @@ li {
   display: flex;
   text-align: center;
   justify-content: center;
+}
+
+/* Work section Cards */
+.work {
+  color: #9490ff;
+  font-size: 40px;
+  text-align: left;
+  vertical-align: center;
+  font-weight: 500;
+  line-height: 52px;
+  margin-left: 20px;
+}
+
+.work-section {
+  display: grid;
+  margin-top: 48px;
+  gap: 40px;
+}
+
+.background-card {
+  background: url("imgs/Ellipse19\(2\).svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-text p {
+  margin-bottom: 50px;
+  padding: 0;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  color: #dcdce8;
+}
+
+.background-card2 {
+  background: url("imgs/Ellipse20.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.background-card3 {
+  background: url("imgs/Ellipse21.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.background-card4 {
+  background: url("imgs/Ellipse22.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.list-items {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+.list-items li {
+  border-right: 1px solid #fff;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  font-size: 15px;
+  padding: 5px 5% 5px 0;
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-weight: 500;
+  width: 89px;
+  height: 48px;
+  background: #7d73fc;
+  color: #edecff;
+  border: 0;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.button:active {
+  background: #5e42d7;
+}
+
+.button:disabled {
+  background: #2a2b33;
+  cursor: not-allowed;
+}
+
+.button:hover {
+  background: #7d73fc;
 }

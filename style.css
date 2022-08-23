@@ -246,6 +246,8 @@ h3 {
 #form-section {
   display: flex;
   flex-direction: column;
+  width: 375px;
+  height: 750px;
 }
 
 input {

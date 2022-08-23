@@ -20,21 +20,20 @@
   <!-- navigation bar -->
   <header class="logobar">
     <a class="logo" href="#my_logo">Grace Abike</a>
-    <nav class="menunav">
+    <nav>
       <img src="imgs/Union.png" alt="menu"> 
     </nav>
   </header>
   <!-- section content -->
-  <section class="content-section">
+  <section class="main-section">
     <h1>Grace Abike</h1>
     <h2>Software Developer</h2>
     <p>
       I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded,  don’t hestiate to contact me.
     </p>
   </section>
-  <div class="devider-up">
-    <img src="imgs/Vector-4.png" alt="devider">
-  </div>
+  <section class="home-section">
+  <div class="devider-up"><hr></div>
   <!-- language list -->
   <div class="Langlist">
     <ul>
@@ -63,31 +62,30 @@
         <li>Terminal</li>
       </ul>
   </div>
-  <div class="devider">
-    <img src="imgs/Vector-4.png" alt="devider">
-  </div>
+  <div class="devider-skill"><hr></div>
   <!-- Social Contact list -->
-  <div class="social-media">
-    <ul>
-      <li><a href="https://github.com/GraceAbike"></a><img src="imgs/Vector.png" alt="Github" class="media"></li>
-      <li><a href="https://www.linkedin.com/in/grace-abike-02770522a/"></a><img src="imgs/Icon-Linkedin.png" alt="in" class="media"></li>
-      <li><a href="https://angel.co/u/grace-abike"></a><img src="imgs/angelist-1.png" alt="angelist" class="media"></li>
-      <li><a href="https://twitter.com/GraceAbike1"></a><img src="imgs/Icon-Twitter.png" alt="Twitter" class="media"></li>
-      <li><img src="imgs/Icon-Medium.png" alt="M" class="media"></li>
+  <div class="email-icon">
+    <ul class="icon">
+      <li><a href="https://github.com/GraceAbike"><img src="imgs/Vector.png" alt="Github"></a></li>
+      <li><a href="https://www.linkedin.com/in/grace-abike-02770522a/"><img src="imgs/Icon-Linkedin.png" alt="LinkedIn"></a></li>
+      <li><a href="https://angel.co/u/grace-abike"><img src="imgs/angelist-1.png" alt="Angelist"></a></li>
+      <li><a href="https://twitter.com/GraceAbike1"><img src="imgs/Icon-Twitter.png" alt="Twitter"></a></li>
+      <li><a href="#"><img src="imgs/Icon-Medium.png" alt="Medium"></a></li>
     </ul>
   </div>
-  <div class="element-right">
-    <img src="imgs/arrow.svg" alt="down-arrow" />
-    <h3>Work</h3>
-  </div>
-  <div>
-    <!-- The Beginning Of Portfolio Mobile Card -->
-    <h2 class="work">MY RECENT<br>WORK</h2>
-    <img class="devider-up" src="/imgs/Vector-4.png" alt="devider">
-  </div>
+  </section>
+  
   <!-- The first Of Portfolio Mobile Card -->
-  <section class="work-section">
-    <div class="background-card">
+  <section id="work-section">
+    <div class="work-section">
+      <img src="imgs/arrow.svg" alt="down-arrow">
+      <h3>Work</h3>
+    </div>
+    <div class="work">
+      <h2>MY RECENT<br>WORK</h2>
+      <div class="devider"><hr></div>
+    </div>
+    <div class="background-card1">
       <div class="card-img">
         <img src="/imgs/imgplaceholder.png" alt="img-blankcard1">
       </div>
@@ -145,7 +143,7 @@
     </div>
     <!-- The Fourth Of Portfolio Mobeli Card -->
     <div class="background-card4">
-      <div class="card-img">
+      <div class="card-img1">
         <img src="/imgs/imgplaceholder.png" alt="img-blankcard4">
       </div>
       <div class="card-text">
@@ -162,6 +160,33 @@
         <button class="button" type="button">See Project</button>
       </div>
     </div>
+  </section>
+  <!-- The Contact Us Form -->
+  <section>
+    <div class="form-content">
+      <h2>CONTACT US</h2>
+      <p>
+        If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
+      </p>
+      <form class="form-container" action="https://formspree.io/f/xdobrbdn" method="post">
+        <input id="name" name="Name" class="input-name" type="text" placeholder="Text Input" maxlength="30" required>
+        <input id="email" name="userEmail" class="input-email" type="email" placeholder="example@gmail.com" required>
+        <textarea name="Message" id="text-message" rows="10" maxlength="500" placeholder="Enter text here"
+          required></textarea>
+        <button type="submit" class="button" id="button">See Project</button>
+      </form>
+    </div>
+    <div class="devider-line"><hr></div>
+       <div class="email-icon">
+          <ul class="icon">
+            <li><a href="https://github.com/GraceAbike"><img src="imgs/Vector.png" alt="Github"></a></li>
+            <li><a href="https://www.linkedin.com/in/grace-abike-02770522a/"><img src="imgs/Icon-Linkedin.png" alt="LinkedIn"></a></li>
+            <li><a href="https://angel.co/u/grace-abike"><img src="imgs/angelist-1.png" alt="Angelist"></a></li>
+            <li><a href="https://twitter.com/GraceAbike1"><img src="imgs/Icon-Twitter.png" alt="Twitter"></a></li>
+            <li><a href="#"><img src="imgs/Icon-Medium.png" alt="Medium"></a></li>
+          </ul>
+        <a href="#" class="email">mara234216@gmail.com</a>
+      </div>
   </section>
 </body>
 </html>

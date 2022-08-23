@@ -230,6 +230,7 @@ h3 {
   flex-direction: column;
   align-items: center;
   gap: 40px;
+  
 }
 
 .form-content h2 {
@@ -255,7 +256,10 @@ h3 {
 
 .form-container {
   display: flex;
-  flex-direction: column;
+flex-direction: column;
+align-items: center;
+padding: 0 24px;
+width: 87%;
 }
 
 .input-email::placeholder {
@@ -270,7 +274,7 @@ h3 {
 
 input {
   height: 48px;
-  width: 327px;
+  width: 100%;
   margin: 12px 0;
 }
 
@@ -285,6 +289,7 @@ input {
 
 #text-message {
   height: 148px;
+  width: 100%;
   margin: 12px 0;
 }
 

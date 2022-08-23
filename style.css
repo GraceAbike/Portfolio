@@ -57,23 +57,10 @@ p {
   padding: 20px;
 }
 
-.social-media ul {
-  display: flex;
-  justify-content: center;
-  margin: 10px 0 0;
-  list-style: none;
-}
-
 .devider-up {
   padding: 0 30px;
   align-items: center;
   color: #646369;
-}
-
-.devider img {
-  align-items: center;
-  color: #646369;
-  padding: 30px;
 }
 
 .content-section {
@@ -111,23 +98,6 @@ p {
   margin-right: 100px;
 }
 
-h4 {
-  padding: 0;
-  color: #9490ff;
-}
-
-li {
-  font-size: 14px;
-  margin-top: 10px;
-}
-
-.media {
-  margin: 0 10px 0 0;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-}
-
 h3 {
   font-weight: 500;
   font-size: 32px;
@@ -136,43 +106,57 @@ h3 {
   text-align: left;
 }
 
-.element-right h3 {
-  color: #a2a3ae;
-  margin-left: 15px;
-  font-size: 20px;
-}
-
-.element-right {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-}
-
 /* Work section Cards */
 .work {
-  color: #9490ff;
-  font-size: 40px;
+  padding: 0 24px;
+}
+
+.work h1 {
   text-align: left;
-  vertical-align: center;
-  font-weight: 500;
+  font-size: 40px;
   line-height: 52px;
-  margin-left: 20px;
+  color: #9490ff;
+  padding-left: 0;
+  padding-bottom: 30px;
+}
+
+.devider-up hr {
+  border: 1px solid #646369;
+  margin: 0 24px;
+}
+
+.devider hr {
+  border: 1px solid #646369;
+  height: 0;
 }
 
 .work-section {
-  display: grid;
-  margin-top: 48px;
-  gap: 40px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
 }
 
-.background-card {
+.work-section h3 {
+  font-size: 30px;
+  color: #a2a3ae;
+  padding: 0 10px;
+}
+
+#work-section {
+  display: grid;
+  padding: 0;
+}
+
+.background-card1 {
   background: url("imgs/Ellipse19\(2\).svg");
   background-repeat: no-repeat;
   background-position: left;
+  padding: 50px 24px;
+}
+
+.card-img img,
+.card-img1 img {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .card-text p {
@@ -187,31 +171,21 @@ h3 {
   background: url("imgs/Ellipse20.svg");
   background-repeat: no-repeat;
   background-position: right;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 50px 24px;
 }
 
 .background-card3 {
   background: url("imgs/Ellipse21.svg");
   background-repeat: no-repeat;
   background-position: left;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 50px 24px;
 }
 
 .background-card4 {
   background: url("imgs/Ellipse22.svg");
   background-repeat: no-repeat;
   background-position: right;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 40px;
+  padding: 50px 24px;
 }
 
 .list-items {
@@ -244,6 +218,73 @@ h3 {
   font-size: 12px;
   cursor: pointer;
 }
+
+/* The contact form */
+.contact-form {
+  padding: 24px;
+}
+
+/* .contact-form h2 {
+  color: #9093ff;
+  padding: 0;
+  font-size: 32px;
+  text-align: center;
+}
+
+.contact-form p {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  height: 48px;
+  width: 100%;
+  margin: 12px 0;
+}
+
+#text-message {
+  height: 148px;
+  width: 100%;
+  margin: 12px 0;
+}
+
+#button {
+  margin: 30px 0;
+}
+
+.devider-line hr {
+  border: 1px solid #3a3837;
+}
+
+.email-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 50px 10px;
+  list-style: none;
+  width: 50%;
+  margin: 0;
+}
+
+.email {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 28px;
+  padding-bottom: 40px;
+} */
 
 .button:active {
   background: #5e42d7;

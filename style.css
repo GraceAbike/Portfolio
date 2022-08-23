@@ -249,7 +249,7 @@ input {
   margin: 12px 0;
 }
 
-/* #text-message {
+#text-message {
   height: 148px;
   width: 100%;
   margin: 12px 0;
@@ -267,9 +267,9 @@ input {
   display: flex;
   flex-direction: column;
   align-items: center;
-} */
+}
 
-/* .icon {
+.icon {
   display: flex;
   justify-content: space-between;
   padding: 25px 50px 10px;
@@ -284,7 +284,7 @@ input {
   font-size: 20px;
   line-height: 28px;
   padding-bottom: 40px;
-} */
+}
 
 .button:active {
   background: #5e42d7;

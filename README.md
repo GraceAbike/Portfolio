@@ -2,8 +2,10 @@
 
 ## Project : Portfolio
 
-Use GitHub Pages to deploy web pages.
-Demonstrate ability to ask clarifying questions about ambiguous requirements.
+## For the third milestone of the portfolio website, I have:
+- Add a contact form to my portfolio and the portfolio of my coding partner.
+### The section that I have built for this milestone is:
+- The Contact Us Form for the mobile version :
 
 ![Photo_image](Portfolio.png)
 

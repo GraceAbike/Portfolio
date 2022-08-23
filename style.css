@@ -10,21 +10,17 @@ body {
 .logobar {
   display: flex;
   justify-content: space-between;
+  padding: 0 24px;
+  margin-top: 10%;
   text-decoration: none;
 }
 
 .logo {
-  padding: 30px;
   text-decoration: none;
-  font-size: 18px;
-  font-style: normal;
+  font-size: 20px;
   font-weight: 500;
   color: #fff;
   letter-spacing: 0.1rem;
-}
-
-.menunav {
-  margin: 25px 30px;
 }
 
 h1 {
@@ -46,28 +42,27 @@ h2 {
   color: #edecff;
 }
 
+h1,
+h2,
 p {
-  width: 327px;
-  height: 170px;
-  font-weight: 400;
-  font-size: 20px;
+  width: 85%;
+}
+
+.main-section p {
   line-height: 28px;
   text-align: center;
   color: #c8c8d4;
-  padding: 20px;
+  font-size: 20px;
+  margin: 0;
+  padding: 50px 20px;
+  font-weight: 400;
 }
 
-.devider-up {
-  padding: 0 30px;
-  align-items: center;
-  color: #646369;
-}
-
-.content-section {
+.main-section {
   background-image: url(/imgs/Ellipse18.svg);
   background-repeat: no-repeat;
-  background-position: 0 -50px;
   background-position-y: top;
+  text-align: center;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -83,6 +78,10 @@ p {
   padding-top: 20px;
 }
 
+h4 {
+  color: #9490ff;
+}
+
 .Langlist ul,
 .listf,
 .langSkills ul {
@@ -94,8 +93,13 @@ p {
   list-style: none;
 }
 
+.devider-skill hr {
+  border: 1px solid #646369;
+  margin: 42px 24px;
+}
+
 .listf {
-  margin-right: 100px;
+  margin-right: 70px;
 }
 
 h3 {
@@ -111,7 +115,7 @@ h3 {
   padding: 0 24px;
 }
 
-.work h1 {
+.work h2 {
   text-align: left;
   font-size: 40px;
   line-height: 52px;
@@ -151,7 +155,7 @@ h3 {
   background: url("imgs/Ellipse19\(2\).svg");
   background-repeat: no-repeat;
   background-position: left;
-  padding: 50px 24px;
+  padding: 48px 24px;
 }
 
 .card-img img,
@@ -171,21 +175,21 @@ h3 {
   background: url("imgs/Ellipse20.svg");
   background-repeat: no-repeat;
   background-position: right;
-  padding: 50px 24px;
+  padding: 40px 29px;
 }
 
 .background-card3 {
   background: url("imgs/Ellipse21.svg");
   background-repeat: no-repeat;
   background-position: left;
-  padding: 50px 24px;
+  padding: 20px 24px;
 }
 
 .background-card4 {
   background: url("imgs/Ellipse22.svg");
   background-repeat: no-repeat;
   background-position: right;
-  padding: 50px 24px;
+  padding: 40px 24px;
 }
 
 .list-items {
@@ -220,39 +224,36 @@ h3 {
 }
 
 /* The contact form */
-.contact-form {
+.form-content {
   padding: 24px;
 }
 
-.contact-form h2 {
+.form-content h2 {
   color: #9093ff;
   padding: 0;
   font-size: 32px;
   text-align: center;
+  margin-top: 50px;
+  margin-left: 20px;
+  font-weight: 500;
 }
 
-.contact-form p {
+.form-content p {
   text-align: center;
   font-family: 'Inter', sans-serif;
   font-size: 16px;
+  line-height: 24px;
+  color: #f5f5ff;
+  margin-top: 24px;
+  margin-bottom: 40px;
+  width: 327px;
+  font-weight: 400;
 }
 
 .form-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-#form-section {
-  display: flex;
-  flex-direction: column;
-  width: 375px;
-  height: 750px;
-  margin-top: 70px;
-}
-
-.contact-form p {
-  align-self: flex-start;
 }
 
 input {
@@ -273,6 +274,7 @@ input {
 
 .devider-line hr {
   border: 1px solid #3a3837;
+  margin: 0 24px;
 }
 
 .email-icon {

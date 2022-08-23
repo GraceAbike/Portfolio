@@ -248,6 +248,11 @@ h3 {
   flex-direction: column;
   width: 375px;
   height: 750px;
+  margin-top: 70px;
+}
+
+.contact-form p {
+  align-self: flex-start;
 }
 
 input {

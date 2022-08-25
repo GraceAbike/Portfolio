@@ -472,11 +472,11 @@ input {
     width: 15%;
   }
 
-  /* .work-arrow {
+  .work-arrow {
     display: flex;
     justify-content: space-around;
     align-items: center;
-  } */
+  }
 
   /* .bar {
     display: flex;

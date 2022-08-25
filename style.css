@@ -357,7 +357,7 @@ input {
     display: none;
   }
 
-  /* .logobar {
+  .logobar {
     padding-top: 26px;
     margin: 0;
   }
@@ -367,7 +367,7 @@ input {
     width: 40%;
   }
 
-  .desktop ul {
+  /* .desktop ul {
     display: flex;
     justify-content: space-between;
     margin: 0;

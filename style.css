@@ -582,13 +582,13 @@ input {
     width: 80%;
   } 
 
-  /* .work h2 {
+  .work h2 {
     font-family: "Roboto", sans-serif;
     font-size: 64px;
     font-weight: 700;
     line-height: 114px;
     text-align: left;
-  } */
+  }
 
   .work br {
     display: none;

@@ -494,11 +494,11 @@ input {
     color: #b3bac5;
   }
 
-  /* .bar img {
+  .bar img {
     width: 18px;
     height: 21.3px;
     padding: 5px;
-  }  */
+  } 
 /* the work section */
   /* .work {
     padding-left: 10%;

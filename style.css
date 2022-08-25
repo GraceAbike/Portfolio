@@ -339,7 +339,7 @@ input {
   background: #7d73fc;
 }
 
- #dev-name{
+#dev-name {
   animation-duration: 3s;
   animation-name: slidein;
   animation-iteration-count: 1;
@@ -357,5 +357,3 @@ input {
     width: 50%;
   }
 }
-
-

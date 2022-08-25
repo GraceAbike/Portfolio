@@ -478,13 +478,13 @@ input {
     align-items: center;
   }
 
-  /* .bar {
+  .bar {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .bar h3 {
+  /* .bar h3 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -492,18 +492,18 @@ input {
     line-height: 32px;
     padding: 0;
     color: #b3bac5;
-  }
+  } */
 
-  .bar img {
+  /* .bar img {
     width: 18px;
     height: 21.3px;
     padding: 5px;
-  } */
+  }  */
 /* the work section */
   /* .work {
     padding-left: 10%;
     padding-right: 10%;
-  } */
+  }
 
   /* .background-card1 {
     display: flex;

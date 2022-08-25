@@ -500,7 +500,7 @@ input {
     padding: 5px;
   } 
 /* the work section */
-  /* .work {
+  .work {
     padding-left: 10%;
     padding-right: 10%;
   }
@@ -511,7 +511,7 @@ input {
     background-position: left;
     padding: 50px 10% 88px;
     width: 80%;
-  } */
+  }
 
   /* .card-img {
     width: 100%;

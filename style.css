@@ -565,13 +565,13 @@ input {
     width: 80%;
   }
 
-  /* .background-card3 {
+  .background-card3 {
     display: flex;
     background-image: url(imgs/Ellipse21.svg);
     background-position: left;
     padding: 0 10% 0;
     width: 80%;
-  } */
+  }
 
   /* .background-card4 {
     display: flex;

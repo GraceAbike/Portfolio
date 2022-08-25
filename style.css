@@ -484,7 +484,7 @@ input {
     align-items: center;
   }
 
-  /* .bar h3 {
+  .bar h3 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -492,7 +492,7 @@ input {
     line-height: 32px;
     padding: 0;
     color: #b3bac5;
-  } */
+  }
 
   /* .bar img {
     width: 18px;

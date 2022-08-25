@@ -367,12 +367,12 @@ input {
     width: 40%;
   }
 
-  /* .desktop ul {
+  .desktop ul {
     display: flex;
     justify-content: space-between;
     margin: 0;
     list-style: none;
-  } */
+  }
 
   /* .bar-list a {
     color: #fff;

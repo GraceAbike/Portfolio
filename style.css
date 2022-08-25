@@ -529,14 +529,14 @@ input {
     margin-right: 54px;
   }
 
-  /* .card-text h3 {
+  .card-text h3 {
     width: 448px;
     font-family: "Roboto", sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
     text-align: left;
-  } */
+  }
 
   /* .card-text p {
     font-family: "Roboto", sans-serif;

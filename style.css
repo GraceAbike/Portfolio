@@ -513,10 +513,10 @@ input {
     width: 80%;
   }
 
-  /* .card-img {
+  .card-img {
     width: 100%;
     margin-right: 24px;
-  }
+  } 
 
   .card-text {
     width: 40%;
@@ -527,7 +527,7 @@ input {
     width: 100%;
     margin-left: -24px;
     margin-right: 54px;
-  } */
+  }
 
   /* .card-text h3 {
     width: 448px;

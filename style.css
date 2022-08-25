@@ -547,14 +547,14 @@ input {
     margin: 0;
   }
 
-  /* .list-items {
+  .list-items {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0;
     gap: 8px;
     width: 307px;
-  } */
+  }
 
   /* .background-card2 {
     display: flex;

@@ -417,7 +417,7 @@ input {
     font-weight: 400;
   }
 
-  /* .main-section {
+  .main-section {
     background-image: url(/imgs/circle\ 1\ header.svg);
     background-repeat: no-repeat;
     background-position: left;
@@ -425,7 +425,7 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
-  } */
+  }
 
   /* .devider-up hr {
     margin: 30px 25% 0;

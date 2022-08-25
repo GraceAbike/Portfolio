@@ -459,7 +459,7 @@ input {
     margin: 42px 25%;
   }
 
-  /* h3 {
+  h3 {
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
@@ -470,7 +470,7 @@ input {
 
   .icon {
     width: 15%;
-  } */
+  }
 
   /* .work-arrow {
     display: flex;

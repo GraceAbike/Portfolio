@@ -605,12 +605,12 @@ input {
     margin-top: 90px;
   }
 
-  /* .form-content p {
+  .form-content p {
     width: 684px;
     font-size: 20px;
     line-height: 28px;
     padding: 10px 20%;
-  } */
+  }
 
   /* .row {
     display: flex;

@@ -431,14 +431,14 @@ input {
     margin: 30px 25% 0;
   }
 
-  /* .Langlist {
+  .Langlist {
     background-image: url(/imgs/circle\ 2\ header.svg);
     background-repeat: no-repeat;
     background-position: right;
     display: flex;
     justify-content: space-between;
     padding: 30px 25% 20px;
-  } */
+  }
 
   /* h4 {
     color: #9490ff;

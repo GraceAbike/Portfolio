@@ -374,13 +374,13 @@ input {
     list-style: none;
   }
 
-  /* .bar-list a {
+  .bar-list a {
     color: #fff;
     text-decoration: none;
     text-align: center;
     font-size: 15px;
     line-height: 20px;
-  } */
+  }
 
   /* h1 {
     margin-bottom: 0;

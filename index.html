@@ -20,9 +20,19 @@
   <!-- navigation bar -->
   <header class="logobar">
     <a class="logo" href="#my_logo">Grace Abike</a>
-    <nav>
-      <img src="imgs/Union.png" alt="menu"> 
+    <nav class="mobile">
+      <img src="imgs/Menumobile.png" alt="menu"> 
     </nav>
+
+    <!-- <nav class="desktop">
+      <ul>
+        <li class="bar-list"><a href="#">Portoflio</a></li>
+        <li class="bar-list"><a href="#">About</a></li>
+        <li class="bar-list"><a href="#">Contact</a></li>
+        <li class="bar-list"><a href="#"><img src="imgs/Uniondesktop.png" alt="Envelope"></a></li>
+
+      </ul>
+    </nav> -->
   </header>
   <!-- section content -->
   <section class="main-section">
@@ -51,9 +61,7 @@
       <li>CapyBara</li>
       <li>Selenium</li>
     </ul>
-  </div>
-  <div class="langSkills">
-      <ul>
+      <ul class="langskills">
         <li><h4>Skills</h4></li>
         <li>Codekit</li>
         <li>Github</li>
@@ -64,7 +72,11 @@
   </div>
   <div class="devider-skill"><hr></div>
   <!-- Social Contact list -->
-  <div class="email-icon">
+  <div class="work-arrow">
+    <div class="bar">
+      <img src="imgs/arrow.svg" alt="arrow" />
+      <h3>work</h3>
+    </div>
     <ul class="icon">
       <li><a href="https://github.com/GraceAbike"><img src="imgs/Vector.png" alt="Github"></a></li>
       <li><a href="https://www.linkedin.com/in/grace-abike-02770522a/"><img src="imgs/Icon-Linkedin.png" alt="LinkedIn"></a></li>
@@ -72,12 +84,16 @@
       <li><a href="https://twitter.com/GraceAbike1"><img src="imgs/Icon-Twitter.png" alt="Twitter"></a></li>
       <li><a href="#"><img src="imgs/Icon-Medium.png" alt="Medium"></a></li>
     </ul>
+    <div class="bar">
+      <img src="imgs/arrow.svg" alt="arrow" />
+      <h3>work</h3>
+    </div>
   </div>
   </section>
   
   <!-- The first Of Portfolio Mobile Card -->
   <section id="work-section">
-    <div class="work-section">
+    <div class="work-section work-section1">
       <img src="imgs/arrow.svg" alt="down-arrow">
       <h3>Work</h3>
     </div>
@@ -85,7 +101,7 @@
       <h2>MY RECENT<br>WORK</h2>
       <div class="devider"><hr></div>
     </div>
-    <div class="background-card1">
+    <div class="background-card1 background-card">
       <div class="card-img">
         <img src="/imgs/imgplaceholder.png" alt="img-blankcard1">
       </div>
@@ -104,8 +120,8 @@
       </div>
     </div>
     <!-- The Seconde Of Portfolio Mobeli Card -->
-    <div class="background-card2">
-      <div class="card-img">
+    <div class="background-card2 background-card">
+      <div class="card-img1">
         <img src="/imgs/imgplaceholder.png" alt="img-blankcard2">  
       </div>
       <div class="card-text">
@@ -123,7 +139,7 @@
       </div>
     </div>
     <!-- The Third Of portfolio Mobile Card -->
-    <div class="background-card3">
+    <div class="background-card3 background-card">
       <div class="card-img">
         <img src="/imgs/imgplaceholder.png" alt="img-blankcard3">
       </div>
@@ -142,7 +158,7 @@
       </div>
     </div>
     <!-- The Fourth Of Portfolio Mobeli Card -->
-    <div class="background-card4">
+    <div class="background-card4 background-card">
       <div class="card-img1">
         <img src="/imgs/imgplaceholder.png" alt="img-blankcard4">
       </div>
@@ -163,6 +179,25 @@
   </section>
   <!-- The Contact Us Form -->
   <section>
+    <!-- <div class="desktop">
+      <div class="form-content">
+        <h2>Let’s chat!</h2>
+        <p>
+          If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it 
+        </p>
+        <form class="form-container" action="https://formspree.io/f/xdobrbdn" method="post">
+        <div class="row">
+          <input id="name" name="Name" class="input-name" type="text" placeholder="Your Name" maxlength="30" required>
+          <input id="name" name="Name" class="input-name" type="text" placeholder="Last Name" maxlength="30" required>
+        </div>
+          <input id="email" name="userEmail" class="input-email" type="email" placeholder="Email Address" required>
+          <textarea name="Message" id="text-message" rows="10" maxlength="500" placeholder="Write your message here"
+            required></textarea>
+          <button type="submit" class="button" id="button">See Project</button>
+        </form>
+      </div>
+    </div> -->
+    <span>
     <div class="form-content">
       <h2>CONTACT US</h2>
       <p>
@@ -176,6 +211,7 @@
         <button type="submit" class="button" id="button">See Project</button>
       </form>
     </div>
+  </span>
     <div class="devider-line"><hr></div>
        <div class="email-icon">
           <ul class="icon">
@@ -185,8 +221,8 @@
             <li><a href="https://twitter.com/GraceAbike1"><img src="imgs/Icon-Twitter.png" alt="Twitter"></a></li>
             <li><a href="#"><img src="imgs/Icon-Medium.png" alt="Medium"></a></li>
           </ul>
-        <a href="#" class="email">mara234216@gmail.com</a>
-      </div>
+          <a href="#" class="email">mara234216@gmail.com</a>
+        </div>
   </section>
 </body>
 </html>

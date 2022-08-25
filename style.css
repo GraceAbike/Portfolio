@@ -7,6 +7,14 @@ body {
   color: #fff;
 }
 
+.desktop {
+  display: none;
+}
+
+.bar {
+  display: none;
+}
+
 .logobar {
   display: flex;
   justify-content: space-between;
@@ -70,21 +78,21 @@ p {
 }
 
 .Langlist {
-  background-image: url(/imgs/Ellipse19.svg);
+  background-image: url(/imgs/Ellipse19left.svg);
   background-repeat: no-repeat;
   background-position: right;
   display: flex;
   justify-content: space-between;
-  padding-top: 20px;
+  padding-right: 20%;
+  flex-wrap: wrap;
+  background-position-y: top;
 }
 
 h4 {
   color: #9490ff;
 }
 
-.Langlist ul,
-.listf,
-.langSkills ul {
+.Langlist ul {
   color: #f5f5ff;
   display: flex;
   flex-direction: column;
@@ -96,10 +104,6 @@ h4 {
 .devider-skill hr {
   border: 1px solid #646369;
   margin: 42px 24px;
-}
-
-.listf {
-  margin-right: 70px;
 }
 
 h3 {
@@ -152,7 +156,7 @@ h3 {
 }
 
 .background-card1 {
-  background: url("imgs/Ellipse19\(2\).svg");
+  background: url(imgs/Ellipse1.svg);
   background-repeat: no-repeat;
   background-position: left;
   padding: 48px 24px;
@@ -172,21 +176,21 @@ h3 {
 }
 
 .background-card2 {
-  background: url("imgs/Ellipse20.svg");
+  background: url(imgs/Ellipse2.svg);
   background-repeat: no-repeat;
   background-position: right;
   padding: 40px 29px;
 }
 
 .background-card3 {
-  background: url("imgs/Ellipse21.svg");
+  background: url(imgs/Ellipse3.svg);
   background-repeat: no-repeat;
   background-position: left;
   padding: 20px 24px;
 }
 
 .background-card4 {
-  background: url("imgs/Ellipse22.svg");
+  background: url(imgs/Ellipse4.svg);
   background-repeat: no-repeat;
   background-position: right;
   padding: 40px 24px;
@@ -337,4 +341,304 @@ input {
 
 .button:hover {
   background: #7d73fc;
+}
+
+/* The starting of media */
+@media only screen and (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+
+  .work-section1 {
+    display: none;
+  }
+
+  span {
+    display: none;
+  }
+
+  /* .logobar {
+    padding-top: 26px;
+    margin: 0;
+  }
+
+  .desktop {
+    display: block;
+    width: 40%;
+  }
+
+  .desktop ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    list-style: none;
+  } */
+
+  /* .bar-list a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+  } */
+
+  /* h1 {
+    margin-bottom: 0;
+    padding: 30px 0 0 10px;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #7d73fc;
+    letter-spacing: 0.37px;
+  } */
+
+  /* h2 {
+    margin: 0;
+    padding: 30px 0 0 10px;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    color: #edecff;
+  }
+
+  h1,
+  h2 {
+    width: 1156px;
+  } */
+
+  /* .main-section p {
+    width: 447px;
+    line-height: 28px;
+    text-align: center;
+    color: #c8c8d4;
+    font-size: 20px;
+    margin: 0;
+    padding: 50px 20px;
+    font-weight: 400;
+  } */
+
+  /* .main-section {
+    background-image: url(/imgs/circle\ 1\ header.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
+
+  /* .devider-up hr {
+    margin: 30px 25% 0;
+  } */
+
+  /* .Langlist {
+    background-image: url(/imgs/circle\ 2\ header.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 25% 20px;
+  } */
+
+  /* h4 {
+    color: #9490ff;
+  }
+
+  .Langlist ul {
+    color: #f5f5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    list-style: none;
+    padding: 37px 0;
+  } */
+
+  /* .devider-skill hr {
+    border: 1px solid #646369;
+    margin: 42px 25%;
+  } */
+
+  /* h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+
+  .icon {
+    width: 15%;
+  } */
+
+  /* .work-arrow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  } */
+
+  /* .bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bar h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    padding: 0;
+    color: #b3bac5;
+  }
+
+  .bar img {
+    width: 18px;
+    height: 21.3px;
+    padding: 5px;
+  } */
+/* the work section */
+  /* .work {
+    padding-left: 10%;
+    padding-right: 10%;
+  } */
+
+  /* .background-card1 {
+    display: flex;
+    background-image: url(imgs/Ellipse19.svg);
+    background-position: left;
+    padding: 50px 10% 88px;
+    width: 80%;
+  } */
+
+  /* .card-img {
+    width: 100%;
+    margin-right: 24px;
+  }
+
+  .card-text {
+    width: 40%;
+    margin-top: -40px;
+  }
+
+  .card-img1 {
+    width: 100%;
+    margin-left: -24px;
+    margin-right: 54px;
+  } */
+
+  /* .card-text h3 {
+    width: 448px;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: left;
+  } */
+
+  /* .card-text p {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin: 0;
+  } */
+
+  /* .list-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 8px;
+    width: 307px;
+  } */
+
+  /* .background-card2 {
+    display: flex;
+    flex-direction: row-reverse;
+    background-image: url(imgs/Ellipse20.svg);
+    background-position: bottom right;
+    padding: 0 10% 88px;
+    width: 80%;
+  } */
+
+  /* .background-card3 {
+    display: flex;
+    background-image: url(imgs/Ellipse21.svg);
+    background-position: left;
+    padding: 0 10% 0;
+    width: 80%;
+  } */
+
+  /* .background-card4 {
+    display: flex;
+    flex-direction: row-reverse;
+    background-image: url(imgs/Ellipse22.svg);
+    background-position: top right;
+    padding: 88px 10% 0;
+    width: 80%;
+  } */
+
+  /* .work h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 114px;
+    text-align: left;
+  } */
+
+  .work br {
+    display: none;
+  }
+
+  /* .form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 684px;
+    left: 290px;
+    margin-right: 378px;
+    margin-top: 90px;
+  }
+
+  .form-content p {
+    width: 684px;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 10px 20%;
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 610px;
+  }
+
+  .row #name {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .email-icon,
+  .devider-line hr {
+    position: absolute;
+    width: 1440px;
+    left: 0;
+    top: 3950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .email {
+    padding: 0 10px;
+  } */
 }

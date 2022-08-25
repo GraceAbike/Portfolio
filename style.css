@@ -498,8 +498,8 @@ input {
     width: 18px;
     height: 21.3px;
     padding: 5px;
-  } 
-/* the work section */
+  }
+
   .work {
     padding-left: 10%;
     padding-right: 10%;
@@ -510,13 +510,17 @@ input {
     background-image: url(imgs/Ellipse19.svg);
     background-position: left;
     padding: 50px 10% 88px;
+
+    /* width: 85%; */
+
+    /* padding: 0 10% 0; */
     width: 80%;
   }
 
   .card-img {
     width: 100%;
     margin-right: 24px;
-  } 
+  }
 
   .card-text {
     width: 40%;
@@ -539,6 +543,7 @@ input {
   }
 
   .card-text p {
+    /* width: 447px; */
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -580,7 +585,7 @@ input {
     background-position: top right;
     padding: 88px 10% 0;
     width: 80%;
-  } 
+  }
 
   .work h2 {
     font-family: "Roboto", sans-serif;
@@ -612,7 +617,7 @@ input {
     padding: 10px 20%;
   }
 
-  /* .row {
+  .row {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -624,9 +629,9 @@ input {
     justify-content: space-between;
     margin-left: 5px;
     margin-right: 5px;
-  } */
+  }
 
-  /* .email-icon,
+  .email-icon,
   .devider-line hr {
     position: absolute;
     width: 1440px;
@@ -640,5 +645,5 @@ input {
 
   .email {
     padding: 0 10px;
-  }  */
+  }
 }

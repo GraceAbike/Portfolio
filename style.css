@@ -427,9 +427,9 @@ input {
     align-items: center;
   }
 
-  /* .devider-up hr {
+  .devider-up hr {
     margin: 30px 25% 0;
-  } */
+  }
 
   /* .Langlist {
     background-image: url(/imgs/circle\ 2\ header.svg);

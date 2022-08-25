@@ -406,7 +406,7 @@ input {
     width: 1156px;
   }
 
-  /* .main-section p {
+  .main-section p {
     width: 447px;
     line-height: 28px;
     text-align: center;
@@ -415,7 +415,7 @@ input {
     margin: 0;
     padding: 50px 20px;
     font-weight: 400;
-  } */
+  }
 
   /* .main-section {
     background-image: url(/imgs/circle\ 1\ header.svg);

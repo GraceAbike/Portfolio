@@ -17,7 +17,7 @@ For this repository, I've created html templates and styling files in order to b
 
 ### Live Demo
 
-[Live Demo link](https://github.com/GraceAbike/Portfolio.git)
+[Live Demo link]( https://graceabike.github.io/Portfolio/)
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
 - Create a new GitHub repo.

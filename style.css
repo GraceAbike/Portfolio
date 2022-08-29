@@ -706,7 +706,6 @@ input {
     animation-duration: 3s;
     animation-name: slidein;
     animation-iteration-count: 1;
-    animation-duration: alternate;
   }
 
   @keyframes slidein {

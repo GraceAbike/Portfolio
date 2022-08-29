@@ -2,8 +2,7 @@
 
 ## Project : Portfolio
 
-### For this milestone you will make your website available online.
-- Use GitHub Pages to deploy web pages.
+- In this exercise, you will add some transitions and animations to your portfolio website. 
 
 ![Photo_image](Portfolio.png)
 

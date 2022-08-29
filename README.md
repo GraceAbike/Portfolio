@@ -2,7 +2,7 @@
 
 ## Project : Portfolio
 
-- In this exercise, you will add some transitions and animations to your portfolio website. 
+### Use GitHub Pages to deploy web pages.
 
 ![Photo_image](Portfolio.png)
 

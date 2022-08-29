@@ -2,10 +2,8 @@
 
 ## Project : Portfolio
 
-## For the third milestone of the portfolio website, I have:
-- Add a contact form to my portfolio and the portfolio of my coding partner.
-### The section that I have built for this milestone is:
-- The Contact Us Form for the mobile version :
+### For this milestone you will make your website available online.
+- Use GitHub Pages to deploy web pages.
 
 ![Photo_image](Portfolio.png)
 

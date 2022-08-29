@@ -2,7 +2,8 @@
 
 ## Project : Portfolio
 
-### Use GitHub Pages to deploy web pages.
+### For this milestone I have make the website available online.
+- Use GitHub Pages to deploy web pages.
 
 ![Photo_image](Portfolio.png)
 

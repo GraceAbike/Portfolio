@@ -2,7 +2,8 @@
 
 ## Project : Portfolio
 
-- In this exercise, you will add some transitions and animations to your portfolio website. 
+### For this milestone I have make the website available online.
+- Use GitHub Pages to deploy web pages.
 
 ![Photo_image](Portfolio.png)
 
@@ -16,7 +17,7 @@ For this repository, I've created html templates and styling files in order to b
 
 ### Live Demo
 
-[Live Demo link](https://github.com/GraceAbike/Portfolio.git)
+[Live Demo link]( https://graceabike.github.io/Portfolio/)
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
 - Create a new GitHub repo.

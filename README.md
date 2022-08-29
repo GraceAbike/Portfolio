@@ -2,10 +2,7 @@
 
 ## Project : Portfolio
 
-## For the third milestone of the portfolio website, I have:
-- Add a contact form to my portfolio and the portfolio of my coding partner.
-### The section that I have built for this milestone is:
-- The Contact Us Form for the mobile version :
+- In this exercise, you will add some transitions and animations to your portfolio website. 
 
 ![Photo_image](Portfolio.png)
 

@@ -19,15 +19,23 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 0 24px;
+  text-align: center;
+  align-items: center;
+  padding: 0 25px;
   margin-top: 10%;
 }
 
 .logo {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16px;
   font-size: 20px;
   color: #fff;
   text-decoration: none;
 }
+
 
 .main-section {
   text-align: center;
@@ -45,6 +53,8 @@ header {
 }
 
 .main-section h1 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
   text-align: center;
   letter-spacing: 0.37px;
   line-height: 72px;
@@ -56,6 +66,8 @@ header {
 }
 
 .main-section h2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
   line-height: 44px;
   font-size: 32px;
   font-weight: 500;
@@ -66,6 +78,8 @@ header {
 }
 
 .main-section p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 20px;
   text-align: center;
@@ -87,6 +101,8 @@ header {
 }
 
 .langlist h3 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
   letter-spacing: 0.03em;
   font-weight: 500;
   color: #9490ff;
@@ -95,6 +111,8 @@ header {
 }
 
 .langlist ul {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 24px;
@@ -148,6 +166,8 @@ header {
 }
 
 .myrecent-work h2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-weight: 500;
   text-align: left;
   font-size: 40px;
@@ -177,6 +197,8 @@ header {
 }
 
 .work h2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-size: 30px;
   color: #a2a3ae;
   padding: 0 10px;
@@ -403,16 +425,31 @@ input {
     padding: 0;
   }
 
+  .logo {
+    margin-left: 5rem;
+    animation: rotateZ 5s;
+  }
+
+  @keyframes rotateZ {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+
   .desktop {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
     display: block;
-    width: 40%;
   }
 
   .desktop ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    margin: 0;
   }
 
   .logonav a {
@@ -421,6 +458,11 @@ input {
     font-size: 15px;
     line-height: 20px;
     text-align: center;
+    margin-left: 3rem;
+  }
+
+  .logonav img {
+    margin-right: 5rem;
   }
 
   .main-section {
@@ -524,7 +566,7 @@ input {
 
   .background-img1 {
     display: flex;
-    background-image: url(imgs/Ellipse19.svg);
+    background-image: url(./imgs/Ellipse19.svg);
     background-position: left;
     padding: 60px 10% 0;
   }
@@ -580,14 +622,14 @@ input {
   .background-img2 {
     display: flex;
     flex-direction: row-reverse;
-    background-image: url(imgs/Ellipse20.svg);
+    background-image: url(./imgs/Ellipse20.svg);
     background-position: bottom right;
     padding: 88px 10% 0;
   }
 
   .background-img3 {
     display: flex;
-    background-image: url(imgs/Ellipse21.svg);
+    background-image: url(./imgs/Ellipse21.svg);
     background-position: left;
     padding: 88px 10% 0;
   }
@@ -595,7 +637,7 @@ input {
   .background-img4 {
     display: flex;
     flex-direction: row-reverse;
-    background-image: url(imgs/Ellipse22.svg);
+    background-image: url(./imgs/Ellipse22.svg);
     background-position: top right;
     padding: 88px 10% 0;
   }
@@ -711,7 +753,7 @@ input {
     padding: 0 10px;
   }
 
-  #dev-name {
+  .main-section h1 {
     animation-duration: 3s;
     animation-name: slidein;
     animation-iteration-count: 1;

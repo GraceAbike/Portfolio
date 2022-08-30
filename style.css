@@ -104,7 +104,10 @@ header {
 
 .item {
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 14px;
+  
+  /* changed font-size to 14px from 15px */
+ 
   line-height: 20px;
   font-weight: 500;
   border-right: 1px solid #555;

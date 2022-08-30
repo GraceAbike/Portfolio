@@ -73,6 +73,7 @@ header {
 }
 
 .main-section p {
+  width: 327px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -495,6 +496,7 @@ input {
   }
 
   .main-section p {
+    width: 447px;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 400;

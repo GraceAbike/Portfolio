@@ -31,7 +31,10 @@ header {
 
 .main-section {
   text-align: center;
-  padding: 20px;
+  padding: 19px; 
+  
+  /* changed padding to 19px from 20px */
+
   background-image: url(imgs/Ellipse18.svg);
   background-repeat: no-repeat;
   background-position: 0 -50px;

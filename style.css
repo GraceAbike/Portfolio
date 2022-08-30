@@ -31,11 +31,9 @@ header {
   font-weight: 500;
   font-size: 18px;
   line-height: 16px;
-  font-size: 20px;
   color: #fff;
   text-decoration: none;
 }
-
 
 .main-section {
   text-align: center;
@@ -425,7 +423,6 @@ input {
       transform: rotate(360deg);
     }
   }
-  
 
   .desktop {
     font-family: 'Roboto', sans-serif;
@@ -471,6 +468,21 @@ input {
     line-height: 105px;
     text-align: center;
     padding-left: 0;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 200%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 50%;
+    }
   }
 
   .main-section h2 {
@@ -741,23 +753,5 @@ input {
 
   .email {
     padding: 0 10px;
-  }
-
-  .main-section h1 {
-    animation-duration: 3s;
-    animation-name: slidein;
-    animation-iteration-count: 1;
-  }
-
-  @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 200%;
-    }
-
-    to {
-      margin-left: 0%;
-      width: 50%;
-    }
   }
 }

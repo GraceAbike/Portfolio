@@ -35,7 +35,7 @@ header {
   
   /* changed padding to 19px from 20px */
 
-  background-image: url(imgs/Ellipse18.svg);
+  background-image: url(./imgs/Ellipse18.svg);
   background-repeat: no-repeat;
   background-position: 0 -50px;
   background-position-y: top;
@@ -80,7 +80,7 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-image: url(imgs/Ellipse19left.svg);
+  background-image: url(./imgs/Ellipse19left.svg);
   background-repeat: no-repeat;
   background-position: right;
   background-position-y: top;
@@ -189,7 +189,7 @@ header {
 
 .background-img1 {
   padding: 50px 24px;
-  background-image: url(imgs/Ellipse1.svg);
+  background-image: url(./imgs/Ellipse1.svg);
   background-position: left;
   background-repeat: no-repeat;
 }
@@ -252,21 +252,21 @@ button {
 
 .background-img2 {
   padding: 50px 24px;
-  background-image: url(imgs/Ellipse2.svg);
+  background-image: url(./imgs/Ellipse2.svg);
   background-position: right;
   background-repeat: no-repeat;
 }
 
 .background-img3 {
   padding: 50px 24px;
-  background-image: url(imgs/Ellipse3.svg);
+  background-image: url(./imgs/Ellipse3.svg);
   background-position: left;
   background-repeat: no-repeat;
 }
 
 .background-img4 {
   padding: 50px 24px;
-  background-image: url(imgs/Ellipse4.svg);
+  background-image: url(./imgs/Ellipse4.svg);
   background-position: right;
   background-repeat: no-repeat;
 }

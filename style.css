@@ -39,10 +39,7 @@ header {
 
 .main-section {
   text-align: center;
-  padding: 19px; 
-  
-  /* changed padding to 19px from 20px */
-
+  padding: 19px;
   background-image: url(./imgs/Ellipse18.svg);
   background-repeat: no-repeat;
   background-position: 0 -50px;
@@ -123,9 +120,6 @@ header {
 .item {
   padding: 10px 20px;
   font-size: 14px;
-  
-  /* changed font-size to 14px from 15px */
- 
   line-height: 20px;
   font-weight: 500;
   border-right: 1px solid #555;
@@ -184,10 +178,6 @@ header {
 
 .devider hr {
   border: 1px solid #646369;
-  
-  /* height: 0; */
-
-  /* commented the height: ; */
 }
 
 .work {

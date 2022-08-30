@@ -17,26 +17,27 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/c94a6a89d4.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
+  <!-- The header section for mobile -->
   <header>
     <a href="#" class="logo">Grace Abike</a>
     <nav class="mobile">
-      <img src="imgs/Menumobile.png" alt="menu">
+      <img src="./imgs/Menumobile.png" alt="menu">
     </nav>
+    <!-- The header nav section for desktop -->
     <nav class="desktop">
       <ul>
         <li class="logonav"><a href="#">Portoflio</a></li>
         <li class="logonav"><a href="#">About</a></li>
         <li class="logonav"><a href="#">Contact</a></li>
-        <li class="logonav"><a href="#"><img src="imgs/Uniondesktop.png" alt="Envelope"></a></li>
-
+        <li class="logonav"><a href="#"><img src="./imgs/Uniondesktop.png" alt="Envelope"></a></li>
       </ul>
     </nav>
   </header>
+  <!-- The beginning of the main section -->
   <section class="main-section">
-    <h1 id="dev-name">Grace Abike</h1>
-    <h2 id="dev-decription">Software Developer</h2>
+    <h1>Grace Abike</h1>
+    <h2>Software Developer</h2>
     <p>
       I can help you build a product, feature or website Look through some of
       my work and experience! If you like what you see and have a project you
@@ -75,27 +76,28 @@
     <div class="devider1">
       <hr>
     </div>
+    <!-- The work section -->
     <div class="work-line">
       <div class="arrow-work">
         <h2>work</h2>
-        <img src="imgs/arrow.svg" alt="arrow">
+        <img src="./imgs/arrow.svg" alt="arrow">
       </div>
       <ul class="icons">
-        <li><a href="https://github.com/GraceAbike"><img src="imgs/Vector.png" alt="Github"></a></li>
-      <li><a href="https://www.linkedin.com/in/grace-abike-02770522a/"><img src="imgs/Icon-Linkedin.png" alt="LinkedIn"></a></li>
-      <li><a href="https://angel.co/u/grace-abike"><img src="imgs/angelist-1.png" alt="Angelist"></a></li>
-      <li><a href="https://twitter.com/GraceAbike1"><img src="imgs/Icon-Twitter.png" alt="Twitter"></a></li>
-      <li><a href="#"><img src="imgs/Icon-Medium.png" alt="Medium"></a></li>
+        <li><a href="https://github.com/GraceAbike"><img src="./imgs/Vector.png" alt="Github"></a></li>
+      <li><a href="https://www.linkedin.com/in/grace-abike-02770522a/"><img src="./imgs/Icon-Linkedin.png" alt="LinkedIn"></a></li>
+      <li><a href="https://angel.co/u/grace-abike"><img src="./imgs/angelist-1.png" alt="Angelist"></a></li>
+      <li><a href="https://twitter.com/GraceAbike1"><img src="./imgs/Icon-Twitter.png" alt="Twitter"></a></li>
+      <li><a href="#"><img src="./imgs/Icon-Medium.png" alt="Medium"></a></li>
       </ul>
       <div class="arrow-work">
-        <img src="imgs/arrow.svg" alt="arrow">
+        <img src="./imgs/arrow.svg" alt="arrow">
         <h2>work</h2>
       </div>
     </div>
   </section>
   <section id="work-section">
     <div class="work work1">
-      <img src="imgs/arrow.svg" alt="arrow">
+      <img src="./imgs/arrow.svg" alt="arrow">
       <h2>work</h2>
     </div>
     <div class="myrecent-work">
@@ -105,9 +107,10 @@
         <hr>
       </div>
     </div>
+    <!-- The section for the first background image -->
     <div class="background-img1 background-img">
       <div class="card-img">
-        <img src="imgs/placeholder.png" alt="placeholder">
+        <img src="./imgs/placeholder.png" alt="placeholder">
       </div>
       <div class="card-text">
         <h2>Multi-Post Stories</h2>
@@ -125,9 +128,10 @@
         <button type="button" class="btn">See Project</button>
       </div>
     </div>
+    <!-- The section for the second background image -->
     <div class="background-img2 background-img">
       <div class="card-img1">
-        <img src="imgs/placeholder.png" alt="placeholder">
+        <img src="./imgs/placeholder.png" alt="placeholder">
       </div>
       <div class="card-text">
         <h2>Multi-Post Stories</h2>
@@ -145,9 +149,10 @@
         <button type="button" class="btn">See Project</button>
       </div>
     </div>
+    <!-- The section for the third background image -->
     <div class="background-img3 background-img">
       <div class="card-img">
-        <img src="imgs/placeholder.png" alt="placeholder">
+        <img src="./imgs/placeholder.png" alt="placeholder">
       </div>
       <div class="card-text">
         <h2>Multi-Post Stories</h2>
@@ -165,9 +170,10 @@
         <button type="button" class="btn">See Project</button>
       </div>
     </div>
+    <!-- The section for the fourth background image -->
     <div class="background-img4 background-img">
       <div class="card-img1">
-        <img src="imgs/placeholder.png" alt="placeholder">
+        <img src="./imgs/placeholder.png" alt="placeholder">
       </div>
       <div class="card-text">
         <h2>Multi-Post Stories</h2>
@@ -186,21 +192,27 @@
       </div>
     </div>
   </section>
+  <!-- The contact me section -->
   <section>
     <div class="form-contact">
+      <!-- the heading for desktop-->
       <h3 class="hide-d">Let’s chat!</h3>
+      <!-- The hesding for mobile -->
       <h3 class="hide">CONTACT US</h3>
       <p>
         If you have an application you are interested in developing, a feature
         that you need built or a project that needs coding. I'd love to help
         with it
       </p>
+      <!-- The form container -->
       <form class="form-container" action="https://formspree.io/f/xdobrbdn" method="POST">
+        <!-- The input form for desktop -->
         <div class="hide-d">
           <div class="row">
           <input id="name" name="Name" class="input-name" type="text" placeholder="Your Name" maxlength="30" required>
           <input id="yname" name="Name" class="input-name" type="text" placeholder="Last Name" maxlength="30" required>
         </div>
+        <!-- The input form for the mobile -->
           <input id="email" name="userEmail" class="input-email" type="email" placeholder="Email Address" required>
         <textarea name="Message" id="text-message" rows="10" maxlength="500" placeholder="Write your message here"
           required></textarea>
@@ -218,17 +230,17 @@
     <div class="devider-line">
       <hr>
     </div>
+    <!-- The social link icon -->
     <div class="email-icon">
       <ul class="icon">
-        <li><a href="https://github.com/GraceAbike"><img src="imgs/Vector.png" alt="Github"></a></li>
-        <li><a href="https://www.linkedin.com/in/grace-abike-02770522a/"><img src="imgs/Icon-Linkedin.png" alt="LinkedIn"></a></li>
-        <li><a href="https://angel.co/u/grace-abike"><img src="imgs/angelist-1.png" alt="Angelist"></a></li>
-        <li><a href="https://twitter.com/GraceAbike1"><img src="imgs/Icon-Twitter.png" alt="Twitter"></a></li>
-        <li><a href="#"><img src="imgs/Icon-Medium.png" alt="Medium"></a></li>
+        <li><a href="https://github.com/GraceAbike"><img src="./imgs/Vector.png" alt="Github"></a></li>
+        <li><a href="https://www.linkedin.com/in/grace-abike-02770522a/"><img src="./imgs/Icon-Linkedin.png" alt="LinkedIn"></a></li>
+        <li><a href="https://angel.co/u/grace-abike"><img src="./imgs/angelist-1.png" alt="Angelist"></a></li>
+        <li><a href="https://twitter.com/GraceAbike1"><img src="./imgs/Icon-Twitter.png" alt="Twitter"></a></li>
+        <li><a href="#"><img src="./imgs/Icon-Medium.png" alt="Medium"></a></li>
       </ul>
       <a href="#" class="email">mara234216@gmail.com</a>
     </div>
   </section>
 </body>
-
 </html>

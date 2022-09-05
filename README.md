@@ -4,7 +4,8 @@
 ### For this milestone of the portfolio website.
 -  I have implement the mobile menu using recently acquired JavaScript knowledge.
 
-![Photo_image](Portfolio.png)
+![Photo_image](Screenshot mobile menu.png)
+![Photo_image](Screenshot menu.png)
 
 ## Description
 For this repository, I've created html templates and styling files in order to built a responsive portfolio,  which can help to easy explorate  profile differents devices.

@@ -35,6 +35,97 @@ header {
   text-decoration: none;
 }
 
+.mobile {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.bar-link1,
+.bar-link2,
+.bar-link3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+/* nav mobile menu overlay */
+#mobileNav {
+  background-color: #191765;
+  background-image: url(./imgs/mobilemenu.png);
+  background-repeat: no-repeat no-repeat;
+  background-position: 0 90px;
+  background-size: cover;
+}
+
+.overlay-content {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+}
+
+.overlay a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #edecff;
+  transition: 0.3s;
+  text-align: left;
+}
+
+#hamburger-icon {
+  margin: auto 0;
+  z-index: 999;
+}
+
+.heavy-right {
+  color: #1780f0;
+}
+
+.bar {
+  width: 35px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px 0;
+  transition: 0.3s;
+}
+
+.open #bar1 {
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open #bar2 {
+  opacity: 0;
+}
+
+.open #bar3 {
+  transform: rotate(45deg) translate(-6px, -6px);
+}
+
+.mobile-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.open .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background: #191765;
+  mix-blend-mode: normal;
+  position: fixed;
+  gap: 25px;
+  padding: 40px 0 0;
+  z-index: -1;
+}
+
 .main-section {
   text-align: center;
   padding: 19px;
@@ -252,7 +343,6 @@ button {
   border: none;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  margin-top: 20px;
 }
 
 .btn {
@@ -290,6 +380,7 @@ button {
   font-size: 32px;
   text-align: center;
   padding-left: 0;
+  color: #9490ff;
 }
 
 .form-contact p {
@@ -306,12 +397,12 @@ button {
 
 input {
   height: 48px;
-  width: 100%;
+  width: 327px;
   margin: 12px 0;
 }
 
 #text-message {
-  width: 100%;
+  width: 327px;
   height: 148px;
   margin: 12px 0;
 }
@@ -336,7 +427,7 @@ input {
 }
 
 #btn {
-  margin: 30px 0;
+  margin: 30px 120px;
 }
 
 .email-icon {
@@ -523,10 +614,6 @@ input {
 
   h3 {
     font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 29px;
-    text-align: left;
   }
 
   .icons {
@@ -658,7 +745,8 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 114px 0;
+
+    /* padding: 114px 0; */
     gap: 88px;
     height: 867px;
     left: 378px;
@@ -670,42 +758,30 @@ input {
     font-size: 40px;
     line-height: 24px;
     color: #9490ff;
+
+    /* margin-bottom: -70px; */
+    margin: 100px 0 -70px;
   }
 
   .form-contact p {
     font-size: 20px;
     line-height: 28px;
-    padding: 10px 20%;
+    padding: 10px 18%;
   }
 
   .form-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+
+    /* text-align: center; */
     padding: 0;
     gap: 20px;
     width: 684px;
     height: 274px;
   }
 
-  button,
-  #btn {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 20px;
-    gap: 10px;
-    width: 106px;
-    height: 48px;
-    background: #9390ff;
-    cursor: pointer;
-    border: none;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-  }
-
-  #btn {
+  #bbtn {
     gap: 10px;
     width: 160px;
     height: 48px;
@@ -739,6 +815,24 @@ input {
     font-size: 17px;
     line-height: 20px;
     color: #6d6c70;
+  }
+
+  #input-email {
+    width: 684px;
+  }
+
+  #textarea-message {
+    width: 100%;
+    height: 148px;
+    margin: 12px 0;
+  }
+
+  #textarea-message::placeholder {
+    padding-left: 16px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #81818c;
   }
 
   .email-icon {

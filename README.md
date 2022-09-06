@@ -1,10 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 
-### In the sixth milestone of the portfolio website, I have:
-- evaluate the website against accessibility best practices and implement any necessary changes to ensure that your website is accessible.
+### For this milestone of the portfolio website.
+-  I have implement the mobile menu using recently acquired JavaScript knowledge.
 
-![Photo_image](Portfolio.png)
+![Photo_image](Screenshot mobile menu.png)
+![Photo_image](Screenshot menu.png)
 
 ## Description
 For this repository, I've created html templates and styling files in order to built a responsive portfolio,  which can help to easy explorate  profile differents devices.
@@ -35,25 +36,13 @@ To get a local copy up and running follow these simple example steps.
 - Clone this project by the command.
 
 ### prerequisites
-- Check all of the items listed in the article Easy Checks – A First Review of Web Accessibility (which you already read in the previous lesson).
-- Determine if the Portfolio needs any changes.
-- Make changes in a separate branch and open a new pull request.
-- Prepare a report listing all points that you have checked, and the result of your evaluation.
-- the report should include:
-- List all points that you have checked, i.e:
-- Page titles
-- Image text alternatives** (<img alt="alt text">)
-- Text headings
-- Color contrast
-- Resize
-- Interaction (labels are optional but recommended as voiceover tools can read them, and should be set as invisible to match the Figma design)
-- Moving content
-- Multimedia
-- The basic structure of the page
-- Each point on the list needs to include the result of your evaluation:
-- If everything was ok, make a statement about that (e.g. "Page titles - no issues found").
-- If you needed to change something, link to the corresponding line of code in your pull request changes.
-- Add your report to the description of your pull request.
+- For this project, you should add the JavaScript + HTML + CSS linter.
+- In mobile, implement the following features:
+- When the user clicks (or taps) the hamburger button, the mobile menu appears.
+- When the user clicks (or taps) the close (X) button, the mobile menu disappears.
+- When the user clicks (or taps) any of the mobile menu options, the mobile menu disappears.
+- When the user clicks (or taps) any of the mobile menu options, a correct part of the page is displayed.
+- In desktop, when the user scrolls you need to check if the user scrolled to a new section. If so, you should highlight the name of the section in the menu by manipulating the DOM using CSS classes.
 ### usege
 - For anyone who wants to practice html5 or/and css3
 - For anyone who wants to create his own portfolio.

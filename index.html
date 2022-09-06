@@ -21,21 +21,31 @@
   <!-- The header section for mobile -->
   <header>
     <a href="#" class="logo">Grace Abike</a>
-    <nav class="mobile">
-      <img src="./imgs/Menumobile.png" alt="menu">
-    </nav>
+    <div id="hamburger-icon" class="mobile" onclick="toggleMenu(this)">
+      <div id="bar1" class="bar"></div>
+      <div id="bar2" class="bar"></div>
+      <div id="bar3" class="bar"></div>
+      <div id="mobileNav" class="overlay mobile mobile-menu">
+        <div class="overlay-content">
+          <a class="bar-link1" href="#main-section">Portfolio <span class="heavy-right">&#x276F;</span></a>
+          <a class="bar-link2" href="#work">About <span class="heavy-right">&#x276F;</span></a>
+          <a class="bar-link3" href="#form-contact">Contact <span class="heavy-right">&#x276F;</span></a>
+        </div>
+      </div>
+    </div>
+
     <!-- The header nav section for desktop -->
     <nav class="desktop">
       <ul>
-        <li class="logonav"><a href="#">Portoflio</a></li>
-        <li class="logonav"><a href="#">About</a></li>
-        <li class="logonav"><a href="#">Contact</a></li>
+        <li class="logonav"><a href="#main-section">Portoflio</a></li>
+        <li class="logonav"><a href="#work-section">About</a></li>
+        <li class="logonav"><a href="#form-contact">Contact</a></li>
         <li class="logonav"><a href="#"><img src="./imgs/Uniondesktop.png" alt="Envelope"></a></li>
       </ul>
     </nav>
   </header>
   <!-- The beginning of the main section -->
-  <section class="main-section">
+  <section id="main-section" class="main-section">
     <h1>Grace Abike</h1>
     <h2>Software Developer</h2>
     <p>
@@ -96,7 +106,7 @@
     </div>
   </section>
   <section id="work-section">
-    <div class="work work1">
+    <div id="work" class="work work1">
       <img src="./imgs/arrow.svg" alt="arrow">
       <h2>work</h2>
     </div>
@@ -194,7 +204,7 @@
   </section>
   <!-- The contact me section -->
   <section>
-    <div class="form-contact">
+    <div id="form-contact" class="form-contact">
       <!-- the heading for desktop-->
       <h3 class="hide-d">Let’s chat!</h3>
       <!-- The hesding for mobile -->
@@ -209,22 +219,22 @@
         <!-- The input form for desktop -->
         <div class="hide-d">
           <div class="row">
-          <input id="name" name="Name" class="input-name" type="text" placeholder="Your Name" maxlength="30" required>
+          <input id="input-name" name="Name" class="input-name" type="text" placeholder="Your Name" maxlength="30" required>
           <input id="yname" name="Name" class="input-name" type="text" placeholder="Last Name" maxlength="30" required>
         </div>
-        <!-- The input form for the mobile -->
-          <input id="email" name="userEmail" class="input-email" type="email" placeholder="Email Address" required>
-        <textarea name="Message" id="text-message" rows="10" maxlength="500" placeholder="Write your message here"
+          <input id="input-email" name="userEmail" class="input-email" type="email" placeholder="Email Address" required>
+        <textarea name="Message" id="textarea-message" rows="10" maxlength="500" placeholder="Write your message here"
           required></textarea>
-          <button type="submit" class="btn" id="btn">Send</button>
+          <button type="submit" class="btn" id="bbtn">Send</button>
         </div>
-        <div class="hide">
+        <!-- The input form for the mobile -->
+      <div class="hide">
         <input id="name" name="Name" class="input-name" type="text" placeholder="Text Input" maxlength="30" required>
         <input id="email" name="userEmail" class="input-email" type="email" placeholder="example@gmail.com" required>
         <textarea name="Message" id="text-message" rows="10" maxlength="500" placeholder="Enter text here"
           required></textarea>
           <button type="submit" class="btn" id="btn">See Project</button>
-        </div>
+      </div>
       </form>
     </div>
     <div class="devider-line">
@@ -242,5 +252,6 @@
       <a href="#" class="email">mara234216@gmail.com</a>
     </div>
   </section>
+  <script src="/index.js"></script>
 </body>
 </html>

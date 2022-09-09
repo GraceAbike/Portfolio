@@ -126,6 +126,114 @@ header {
   z-index: -1;
 }
 
+#overlay {
+  display: block;
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: #191765;
+  background-image: url(./imgs/Top\ circles.png);
+  background-repeat: no-repeat;
+}
+
+.closeX {
+  color: #fff;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  height: 54px;
+  width: 34px;
+  left: 8px;
+  border-radius: 0;
+}
+
+.post {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0;
+  color: #fff;
+}
+
+.popup {
+  display: none;
+  padding: 24px 30px 50px;
+  position: fixed;
+  overflow: auto;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: auto;
+  height: 90vh;
+  margin: 5% 5% 3%;
+  background-color: rgba(255, 255, 255, 0.16);
+  border-radius: 0;
+}
+
+.popup p {
+  width: 279px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+.d-none {
+  display: none;
+}
+
+.popbtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.button {
+  padding: 12px 9px;
+  width: 108px;
+  height: 48px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #edecff;
+  background: #7d73fc;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+}
+
+.list-items {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+}
+
+.list-items li {
+  border-left: 1px solid #fff;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  font-size: 15px;
+  padding: 0 2%;
+  text-align: center;
+}
+
+#github {
+  border-right: 1px solid #fff;
+}
+
 .main-section {
   text-align: center;
   padding: 19px;
@@ -336,9 +444,7 @@ button {
   align-items: center;
   padding: 12px;
   gap: 10px;
-  width: 89px;
-  height: 48px;
-  background: #7d73fc;
+  background: #07ff;
   cursor: pointer;
   border: none;
   font-family: 'Roboto', sans-serif;
@@ -349,6 +455,9 @@ button {
   font-weight: 500;
   font-size: 12px;
   color: #edecff;
+  height: 48px;
+  border: none;
+  cursor: pointer;
 }
 
 .background-img2 {
@@ -476,6 +585,11 @@ input {
   font-size: 12px;
 }
 
+#img img {
+  width: 100%;
+  height: 181px;
+}
+
 /* media query */
 @media only screen and (min-width: 768px) {
   .mobile {
@@ -594,6 +708,65 @@ input {
     line-height: 32px;
     text-align: center;
     padding: 64px 25% 0;
+  }
+
+  #overlay {
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    height: 1980px;
+    background: #191765;
+    background-image: url(./imgs/two\ circles\ header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .popup {
+    display: none;
+    position: fixed;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    margin: 13% 10% 3%;
+    background-color: rgba(255, 255, 255, 0.16);
+    border-radius: 0;
+    height: 1550px;
+    width: 76%;
+  }
+
+  .post {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 32px;
+    margin: 45px 0;
+    color: #fff;
+  }
+
+  .closeX {
+    color: #fff;
+    float: right;
+    font-size: 80px;
+    font-weight: bold;
+    margin-right: 70px;
+  }
+
+  .popup p {
+    display: block;
+    width: 684px;
+    height: 236px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    margin: 70px 100px 88px;
   }
 
   .devider1 {
@@ -773,8 +946,6 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    /* text-align: center; */
     padding: 0;
     gap: 20px;
     width: 684px;
@@ -791,6 +962,20 @@ input {
     padding: 10px 60px;
     margin-left: 250px;
     margin-top: 80px;
+  }
+
+  .popbtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 90px 37%;
+  }
+
+  #img img {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    margin: 50px 0 40px;
   }
 
   .hide-d {

@@ -176,3 +176,21 @@ button.onclick = function () {
   overlay.style.display = 'block';
   popup.style.display = 'block';
 };
+button = document.getElementsByClassName('btn')[1];
+
+button.onclick = function () {
+  overlay.style.display = 'block';
+  popup.style.display = 'block';
+};
+button = document.getElementsByClassName('btn')[2];
+
+button.onclick = function () {
+  overlay.style.display = 'block';
+  popup.style.display = 'block';
+};
+button = document.getElementsByClassName('btn')[3];
+
+button.onclick = function () {
+  overlay.style.display = 'block';
+  popup.style.display = 'block';
+};

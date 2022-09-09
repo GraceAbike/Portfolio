@@ -714,6 +714,7 @@ input {
     z-index: 999;
     left: 0;
     top: 0;
+
     /* overflow: auto; */
     background: #191765;
     background-image: url(./imgs/two\ circles\ header.png);
@@ -755,6 +756,7 @@ input {
   .popup p {
     display: block;
     width: 684px;
+
     /* height: 236px; */
     font-family: 'Roboto', sans-serif;
     font-style: normal;

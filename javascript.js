@@ -163,3 +163,16 @@ ${myArray[cardIndex].description}</p>
 </div>
 `;
 }
+
+const overlay = document.getElementById('overlay');
+const popup = document.getElementById('mypopup');
+const span = document.getElementsByClassName('closeX')[0];
+span.onclick = function () {
+  overlay.style.display = 'none';
+  popup.style.display = 'none';
+};
+button = document.getElementsByClassName('btn')[0];
+button.onclick = function () {
+  overlay.style.display = 'block';
+  popup.style.display = 'block';
+};

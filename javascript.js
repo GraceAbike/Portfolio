@@ -127,3 +127,39 @@ ${myArray[cardIndex].description}
 <button type="button" class="btn">${myArray[cardIndex].btn}t</button>
 </div>
 </div>
+</div>
+<div class="background-img3 background-img">
+<div class="card-img">
+<img src="${myArray[cardIndex].image.image1}" alt="placeholder">
+</div>
+<div class="card-text">
+<h2>${myArray[cardIndex].subtitle}</h2>
+<p>${myArray[cardIndex].description}</p>
+<ul class="list-item">
+<li class="item">${myArray[cardIndex].langlist.css}</li>
+<li class="item">${myArray[cardIndex].langlist.html}</li>
+<li class="item">${myArray[cardIndex].langlist.bootstrap}</li>
+<li class="Ruby">${myArray[cardIndex].langlist.ruby}</li>
+</ul>
+<button type="button" class="btn">${myArray[cardIndex].btn}</button>
+</div>
+</div>
+<div class="background-img4 background-img">
+<div class="card-img1">
+<img src="${myArray[cardIndex].image.image1}" alt="placeholder">
+</div>
+<div class="card-text">
+<h2>${myArray[cardIndex].subtitle}</h2>
+<p>
+${myArray[cardIndex].description}</p>
+<ul class="list-item">
+  <li class="item">${myArray[cardIndex].langlist.css}</li>
+  <li class="item">${myArray[cardIndex].langlist.html}</li>
+  <li class="item">${myArray[cardIndex].langlist.bootstrap}</li>
+  <li class="Ruby">${myArray[cardIndex].langlist.ruby}</li>
+</ul>
+<button type="button" class="btn">${myArray[cardIndex].btn}</button>
+</div>
+</div>
+`;
+}

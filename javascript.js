@@ -99,8 +99,7 @@ for (let cardIndex = 0; cardIndex < myArray.length; cardIndex += 1) {
 </div>
 <div class="card-text">
 <h2>${myArray[cardIndex].subtitle}</h2>
-<p>
-${myArray[cardIndex].description}
+<p>${myArray[cardIndex].description}
 </p>
 <ul class="list-item">
   <li class="item">${myArray[cardIndex].langlist.css}</li>
@@ -167,30 +166,30 @@ ${myArray[cardIndex].description}</p>
 const overlay = document.getElementById('overlay');
 const popup = document.getElementById('mypopup');
 const span = document.getElementsByClassName('closeX')[0];
-span.onclick = function () {
+span.onclick = function span() {
   overlay.style.display = 'none';
   popup.style.display = 'none';
 };
-button = document.getElementsByClassName('btn')[0];
-button.onclick = function () {
+const button = document.getElementsByClassName('btn')[0];
+button.onclick = function buton() {
   overlay.style.display = 'block';
   popup.style.display = 'block';
 };
-button = document.getElementsByClassName('btn')[1];
+const myButton = document.getElementsByClassName('btn')[1];
 
-button.onclick = function () {
+myButton.onclick = function buton() {
   overlay.style.display = 'block';
   popup.style.display = 'block';
 };
-button = document.getElementsByClassName('btn')[2];
+const myBtn = document.getElementsByClassName('btn')[2];
 
-button.onclick = function () {
+myBtn.onclick = function buton() {
   overlay.style.display = 'block';
   popup.style.display = 'block';
 };
-button = document.getElementsByClassName('btn')[3];
+const buton = document.getElementsByClassName('btn')[3];
 
-button.onclick = function () {
+buton.onclick = function buton() {
   overlay.style.display = 'block';
   popup.style.display = 'block';
 };

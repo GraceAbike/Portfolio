@@ -133,8 +133,9 @@ header {
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
-  overflow: auto;
+  height: 200%;
+
+  /* overflow: auto; */
   background: #191765;
   background-image: url(./imgs/Top\ circles.png);
   background-repeat: no-repeat;
@@ -148,6 +149,7 @@ header {
   height: 54px;
   width: 34px;
   left: 8px;
+  margin: 5% 4% 0 0;
   border-radius: 0;
 }
 
@@ -157,27 +159,23 @@ header {
   font-weight: 500;
   font-size: 20px;
   line-height: 28px;
+  padding: 6% 6% 0;
   margin: 0;
   color: #fff;
 }
 
 .popup {
   display: none;
-  padding: 24px 30px 50px;
-  position: fixed;
-  overflow: auto;
-  top: 0;
-  left: 0;
-  z-index: 10;
   width: auto;
-  height: 90vh;
-  margin: 5% 5% 3%;
+  height: 47.5%;
+  margin: 6% 6% 1%;
   background-color: rgba(255, 255, 255, 0.16);
   border-radius: 0;
 }
 
 .popup p {
-  width: 279px;
+  width: 90%;
+  height: auto;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -185,6 +183,7 @@ header {
   line-height: 24px;
   text-align: center;
   color: #fff;
+  margin: 0%  5% 1%;
 }
 
 .d-none {
@@ -196,6 +195,7 @@ header {
   flex-direction: column;
   align-items: center;
   gap: 12px;
+  margin: 0% 0 0% 0;
 }
 
 .button {
@@ -585,8 +585,9 @@ input {
 }
 
 #img img {
-  width: 100%;
-  height: 181px;
+  width: 92%;
+  height: auto;
+  padding: 0 4% 0;
 }
 
 /* media query */
@@ -714,8 +715,6 @@ input {
     z-index: 999;
     left: 0;
     top: 0;
-
-    /* overflow: auto; */
     background: #191765;
     background-image: url(./imgs/two\ circles\ header.png);
     background-repeat: no-repeat;
@@ -724,15 +723,12 @@ input {
 
   .popup {
     display: none;
-    position: fixed;
+    width: auto;
     overflow: auto;
-    top: -50px;
-    left: 0;
-    z-index: 999;
-    margin: 13% 10% 3%;
+    height: 45%;
+    margin: 6% 6% 1%;
     background-color: rgba(255, 255, 255, 0.16);
     border-radius: 0;
-    width: auto;
   }
 
   .post {
@@ -750,22 +746,15 @@ input {
     float: right;
     font-size: 80px;
     font-weight: bold;
-    margin-right: 70px;
+    margin: 2% 8% 6% 0;
   }
 
   .popup p {
-    display: block;
-    width: 684px;
-
-    /* height: 236px; */
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     text-align: center;
-    color: #fff;
-    margin: 0 100px 88px;
+    margin: 5% 50px 58px;
   }
 
   .devider1 {
@@ -917,8 +906,6 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    /* padding: 114px 0; */
     gap: 88px;
     height: 867px;
     left: 378px;
@@ -930,8 +917,6 @@ input {
     font-size: 40px;
     line-height: 24px;
     color: #9490ff;
-
-    /* margin-bottom: -70px; */
     margin: 100px 0 -70px;
   }
 
@@ -968,12 +953,6 @@ input {
     flex-direction: row;
     align-items: center;
     margin: 90px 37%;
-  }
-
-  #img img {
-    height: 100%;
-    width: 100%;
-    margin: 50px 0 88px;
   }
 
   .hide-d {

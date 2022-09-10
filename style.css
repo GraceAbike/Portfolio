@@ -126,6 +126,113 @@ header {
   z-index: -1;
 }
 
+#overlay {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 200%;
+
+  /* overflow: auto; */
+  background: #191765;
+  background-image: url(./imgs/Top\ circles.png);
+  background-repeat: no-repeat;
+}
+
+.closeX {
+  color: #fff;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  height: 54px;
+  width: 34px;
+  left: 8px;
+  margin: 5% 4% 0 0;
+  border-radius: 0;
+}
+
+.post {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  padding: 6% 6% 0;
+  margin: 0;
+  color: #fff;
+}
+
+.popup {
+  display: none;
+  width: auto;
+  height: 47.5%;
+  margin: 6% 6% 1%;
+  background-color: rgba(255, 255, 255, 0.16);
+  border-radius: 0;
+}
+
+.popup p {
+  width: 90%;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  margin: 0%  5% 1%;
+}
+
+.d-none {
+  display: none;
+}
+
+.popbtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin: 0% 0 0% 0;
+}
+
+.button {
+  padding: 12px 9px;
+  width: 108px;
+  height: 48px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #edecff;
+  background: #7d73fc;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+}
+
+.list-items {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+}
+
+.list-items li {
+  border-left: 1px solid #fff;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  font-size: 15px;
+  padding: 0 2%;
+  text-align: center;
+}
+
+#github {
+  border-right: 1px solid #fff;
+}
+
 .main-section {
   text-align: center;
   padding: 19px;
@@ -336,9 +443,7 @@ button {
   align-items: center;
   padding: 12px;
   gap: 10px;
-  width: 89px;
-  height: 48px;
-  background: #7d73fc;
+  background: #07ff;
   cursor: pointer;
   border: none;
   font-family: 'Roboto', sans-serif;
@@ -349,6 +454,9 @@ button {
   font-weight: 500;
   font-size: 12px;
   color: #edecff;
+  height: 48px;
+  border: none;
+  cursor: pointer;
 }
 
 .background-img2 {
@@ -476,6 +584,12 @@ input {
   font-size: 12px;
 }
 
+#img img {
+  width: 92%;
+  height: auto;
+  padding: 0 4% 0;
+}
+
 /* media query */
 @media only screen and (min-width: 768px) {
   .mobile {
@@ -594,6 +708,53 @@ input {
     line-height: 32px;
     text-align: center;
     padding: 64px 25% 0;
+  }
+
+  #overlay {
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    background: #191765;
+    background-image: url(./imgs/two\ circles\ header.png);
+    background-repeat: no-repeat;
+    background-position: center 400px;
+  }
+
+  .popup {
+    display: none;
+    width: auto;
+    overflow: auto;
+    height: 45%;
+    margin: 6% 6% 1%;
+    background-color: rgba(255, 255, 255, 0.16);
+    border-radius: 0;
+  }
+
+  .post {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 32px;
+    margin: 45px 0;
+    color: #fff;
+  }
+
+  .closeX {
+    color: #fff;
+    float: right;
+    font-size: 80px;
+    font-weight: bold;
+    margin: 2% 8% 6% 0;
+  }
+
+  .popup p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    margin: 5% 50px 58px;
   }
 
   .devider1 {
@@ -745,8 +906,6 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    /* padding: 114px 0; */
     gap: 88px;
     height: 867px;
     left: 378px;
@@ -758,8 +917,6 @@ input {
     font-size: 40px;
     line-height: 24px;
     color: #9490ff;
-
-    /* margin-bottom: -70px; */
     margin: 100px 0 -70px;
   }
 
@@ -773,8 +930,6 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    /* text-align: center; */
     padding: 0;
     gap: 20px;
     width: 684px;
@@ -791,6 +946,13 @@ input {
     padding: 10px 60px;
     margin-left: 250px;
     margin-top: 80px;
+  }
+
+  .popbtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 90px 37%;
   }
 
   .hide-d {

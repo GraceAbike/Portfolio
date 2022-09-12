@@ -2,9 +2,9 @@
 
 
 ### For this milestone of portfolio website,
-- I have implement a popup window that includes the project details in both desktop and mobile.
+- I have implement the mobile menu using recently acquired JavaScript knowledge.
 
-<img width="239" alt="image" src="https://user-images.githubusercontent.com/88346506/189490670-e2bf2485-794e-4fc9-82fc-47444a24ab9d.png">
+<img width="242" alt="image" src="https://user-images.githubusercontent.com/88346506/189622224-ec97f3b5-501b-4b4a-a633-a85486508b59.png">   <img width="241" alt="image" src="https://user-images.githubusercontent.com/88346506/189621944-e8e6913f-ec0a-404f-86ab-f21e0b78fef0.png">
 
 
 ## Description
@@ -32,15 +32,16 @@ To get a local copy up and running follow these simple example steps.
 - Open terminal
 - Clone this project by the command.
 
-####  You should implement the following interactions:
+### Project requirements
 
-- When the user clicks (or taps) the button to check project details, the popup with details about the project appears.
-- When the user clicks (or taps) the close (X) button, the popup disappears.
-- In order to associate each project with the popup window details, you must refactor the project section:
-- You need to use a JavaScript array to store all of the information for all projects.
-- For each project you need to store the following pieces of data in a JavaScript object, at a minimum: name, description, featured image, technologies, link to live version, link to source.
-- You need to update the main page so that the projects section is created dynamically using the information stored in that JavaScript object. Remember, all of the HTML in that section is created when the page loads.
-After that, you could implement the popup window.
+#### You should implement the following interactions:
+
+- For this project, you should add the `JavaScript` + `HTML` + `CSS` `linter`.
+- In mobile, implement the following features:
+- When the user clicks (or taps) the hamburger button, the mobile menu appears.
+- When the user clicks (or taps) the close (X) button, the mobile menu disappears.
+- When the user clicks (or taps) any of the mobile menu options, the mobile menu disappears.
+- When the user clicks (or taps) any of the mobile menu options, a correct part of the page is displayed.
 ### usege
 - For anyone who wants to practice html5 or/and css3
 - For anyone who wants to create his own portfolio.

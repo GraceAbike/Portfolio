@@ -159,3 +159,28 @@ ${myArray[cardIndex].description}</p>
 </div>
 </div>`;
 }
+// Buttons Action
+const overlay = document.getElementById('overlay');
+const popup = document.getElementById('mypopup');
+const span = document.getElementsByClassName('closeX')[0];
+span.onclick = function span() {
+  overlay.style.display = 'none';
+  popup.style.display = 'none';
+};
+const button = document.getElementsByClassName('btn')[0];
+button.onclick = function buton() {
+  overlay.style.display = 'block';
+  popup.style.display = 'block';
+};
+const myButton = document.getElementsByClassName('btn')[1];
+
+myButton.onclick = function buton() {
+  overlay.style.display = 'block';
+  popup.style.display = 'block';
+};
+const myBtn = document.getElementsByClassName('btn')[2];
+
+myBtn.onclick = function buton() {
+  overlay.style.display = 'block';
+  popup.style.display = 'block';
+};

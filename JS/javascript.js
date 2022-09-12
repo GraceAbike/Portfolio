@@ -68,27 +68,27 @@ const myArray = [
     },
 
   },
-  // {
-  //   class: 'background-img4 background-img',
-  //   class2: 'card-img1',
-  //   subtitle: 'Multi-Post Stories',
-  //   description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-  //   image: {
-  //     image1: './imgs/placeholder.png',
-  //   },
-  //   langlist: {
-  //     css: 'css',
-  //     html: 'html',
-  //     bootstrap: 'bootstrap',
-  //     ruby: 'Ruby',
-  //     lags: 'Ruby on rails',
-  //   },
-  //   btn: 'See Project',
-  //   style: {
-  //     style1: 'section-2',
-  //   },
-  //   imageleft: 'image-left',
-  // },
+  {
+    class: 'background-img4 background-img',
+    class2: 'card-img1',
+    subtitle: 'Multi-Post Stories',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    image: {
+      image1: './imgs/placeholder.png',
+    },
+    langlist: {
+      css: 'css',
+      html: 'html',
+      bootstrap: 'bootstrap',
+      ruby: 'Ruby',
+      lags: 'Ruby on rails',
+    },
+    btn: 'See Project',
+    style: {
+      style1: 'section-2',
+    },
+    imageleft: 'image-left',
+  },
 ];
 // JavaScript Dynamic Section
 // const section = document.querySelector('#work-section');

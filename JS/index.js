@@ -1,4 +1,3 @@
 function toggleMenu(menu) {
-    menu.classList.toggle('open');
-    toggleMenu();    
-}
+  menu.classList.toggle('open');
+}toggleMenu();

@@ -184,3 +184,8 @@ myBtn.onclick = function buton() {
   overlay.style.display = 'block';
   popup.style.display = 'block';
 };
+const buton = document.getElementsByClassName('btn')[3];
+buton.onclick = function buton() {
+  overlay.style.display = 'block';
+  popup.style.display = 'block';
+};

@@ -8,6 +8,8 @@ const myArray = [
     image: {
       image1: './imgs/placeholder.png',
       popup: './imgs/SnapshootPortfolio.png',
+      linkLiveVersion: '',
+      linkVersion: '',
     },
     langlist: {
       css: 'css',
@@ -17,9 +19,6 @@ const myArray = [
       lags: 'Ruby on rails',
     },
     btn: 'See Project',
-    style: {
-      style1: 'section-1',
-    },
     button: {
       live: 'See live',
       source: 'See source',
@@ -32,6 +31,8 @@ const myArray = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
     image: {
       image1: './imgs/placeholder.png',
+      linkLiveVersion: '',
+      linkVersion: '',
     },
     langlist: {
       css: 'css',
@@ -41,9 +42,6 @@ const myArray = [
       lags: 'Ruby on rails',
     },
     btn: 'See Project',
-    style: {
-      style1: 'section-2',
-    },
     imageleft: 'image-left',
   },
   {
@@ -53,6 +51,8 @@ const myArray = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
     image: {
       image1: './imgs/placeholder.png',
+      linkLiveVersion: '',
+      linkVersion: '',
     },
     langlist: {
       css: 'css',
@@ -62,10 +62,6 @@ const myArray = [
       lags: 'Ruby on rails',
     },
     btn: 'See Project',
-    style: {
-      style1: 'section-1',
-    },
-
   },
   {
     class: 'background-img4 background-img',
@@ -74,6 +70,8 @@ const myArray = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
     image: {
       image1: './imgs/placeholder.png',
+      linkLiveVersion: '',
+      linkVersion: '',
     },
     langlist: {
       css: 'css',
@@ -83,9 +81,6 @@ const myArray = [
       lags: 'Ruby on rails',
     },
     btn: 'See Project',
-    style: {
-      style1: 'section-2',
-    },
     imageleft: 'image-left',
   },
 ];

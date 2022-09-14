@@ -509,13 +509,13 @@ input {
   margin: 12px 0;
 }
 
-#text-message {
+#message {
   width: 327px;
   height: 148px;
   margin: 12px 0;
 }
 
-#text-message::placeholder,
+#message::placeholder,
 .input-name::placeholder {
   padding-left: 16px;
   font-weight: 400;
@@ -969,7 +969,7 @@ input {
     height: 48px;
   }
 
-  .row #yname {
+  .row #name {
     height: 48px;
     left: 0;
     right: 0;
@@ -979,17 +979,17 @@ input {
     color: #6d6c70;
   }
 
-  #input-email {
+  #email {
     width: 684px;
   }
 
-  #textarea-message {
+  #message {
     width: 100%;
     height: 148px;
     margin: 12px 0;
   }
 
-  #textarea-message::placeholder {
+  #message::placeholder {
     padding-left: 16px;
     font-weight: 400;
     font-size: 15px;

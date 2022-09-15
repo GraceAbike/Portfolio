@@ -46,3 +46,10 @@ nameEl.addEventListener('input', (e) => {
 namEl.addEventListener('input', (e) => {
   localStorage.setItem('namEl', e.target.value);
 });
+mailEl.addEventListener('input', (e) => {
+  localStorage.setItem('mailEl', e.target.value);
+});
+
+messageEl.addEventListener('input', (e) => {
+  localStorage.setItem('messageEl', e.target.value);
+});

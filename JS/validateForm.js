@@ -35,3 +35,8 @@ const emailVal = localStorage.getItem('mailEl');
 if (mailEl) {
   mailEl.value = emailVal;
 }
+const messageEl = document.querySelector('#message');
+const messageVal = localStorage.getItem('messageEl');
+if (messageEl) {
+  messageEl.value = messageVal;
+}

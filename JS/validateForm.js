@@ -17,3 +17,21 @@ formContainer.addEventListener('submit', (e) => {
     }, 5000);
   }
 });
+
+// Local Storage
+const nameEl = document.querySelector('#name');
+const nameVal = localStorage.getItem('nameEl');
+if (nameEl) {
+  nameEl.value = nameVal;
+}
+const namEl = document.querySelector('#name');
+const namVal = localStorage.getItem('nameEl');
+if (namEl) {
+  namEl.value = namVal;
+}
+
+const mailEl = document.querySelector('#email');
+const emailVal = localStorage.getItem('mailEl');
+if (mailEl) {
+  mailEl.value = emailVal;
+}

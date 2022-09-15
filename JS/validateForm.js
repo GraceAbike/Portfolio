@@ -40,3 +40,9 @@ const messageVal = localStorage.getItem('messageEl');
 if (messageEl) {
   messageEl.value = messageVal;
 }
+nameEl.addEventListener('input', (e) => {
+  localStorage.setItem('nameEl', e.target.value);
+});
+namEl.addEventListener('input', (e) => {
+  localStorage.setItem('namEl', e.target.value);
+});

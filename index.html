@@ -109,7 +109,7 @@
     </div>
     <div class="myrecent-work">
       <h2 class="hide-d">My recent work</h2>
-      <h2 class="hide">MY RECENT WORK</h2>
+      <h2 class="hide-m">MY RECENT WORK</h2>
       <div class="devider">
         <hr>
       </div>
@@ -148,69 +148,6 @@
         <button type="button" class="btn">See Project</button>
       </div>
     </div>
-    <!-- The section for the second background image -->
-    <!-- <div class="background-img2 background-img">
-      <div class="card-img1">
-        <img src="./imgs/placeholder.png" alt="placeholder">
-      </div>
-      <div class="card-text">
-        <h2>Multi-Post Stories</h2>
-        <p>
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a standard dummy text.
-        </p>
-        <ul class="list-item">
-          <li class="item">css</li>
-          <li class="item">html</li>
-          <li class="item">bootstrap</li>
-          <li class="Ruby">Ruby</li>
-        </ul>
-        <button type="button" class="btn">See Project</button>
-      </div>
-    </div> -->
-    <!-- The section for the third background image -->
-    <!-- <div class="background-img3 background-img">
-      <div class="card-img">
-        <img src="./imgs/placeholder.png" alt="placeholder">
-      </div>
-      <div class="card-text">
-        <h2>Multi-Post Stories</h2>
-        <p>
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a standard dummy text.
-        </p>
-        <ul class="list-item">
-          <li class="item">css</li>
-          <li class="item">html</li>
-          <li class="item">bootstrap</li>
-          <li class="Ruby">Ruby</li>
-        </ul>
-        <button type="button" class="btn">See Project</button>
-      </div>
-    </div> -->
-    <!-- The section for the fourth background image -->
-    <!-- <div class="background-img4 background-img">
-      <div class="card-img1">
-        <img src="./imgs/placeholder.png" alt="placeholder">
-      </div>
-      <div class="card-text">
-        <h2>Multi-Post Stories</h2>
-        <p>
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a standard dummy text.
-        </p>
-        <ul class="list-item">
-          <li class="item">css</li>
-          <li class="item">html</li>
-          <li class="item">bootstrap</li>
-          <li class="Ruby">Ruby</li>
-        </ul>
-        <button type="button" class="btn">See Project</button>
-      </div>
-    </div> -->
   </section>
   <div id="overlay" class="overlay overlay-mobile" >
   <div class="popup " id="mypopup">
@@ -241,33 +178,21 @@
       <!-- the heading for desktop-->
       <h3 class="hide-d">Let’s chat!</h3>
       <!-- The hesding for mobile -->
-      <h3 class="hide">CONTACT US</h3>
+      <h3 class="hide-m">CONTACT US</h3>
       <p>
         If you have an application you are interested in developing, a feature
         that you need built or a project that needs coding. I'd love to help
         with it
       </p>
       <!-- The form container -->
-      <form class="form-container" action="https://formspree.io/f/xdobrbdn" method="POST">
-        <!-- The input form for desktop -->
-        <div class="hide-d">
-          <div class="row">
-          <input id="input-name" name="Name" class="input-name" type="text" placeholder="Your Name" maxlength="30" required>
-          <input id="yname" name="Name" class="input-name" type="text" placeholder="Last Name" maxlength="30" required>
-        </div>
-          <input id="input-email" name="userEmail" class="input-email" type="email" placeholder="Email Address" required>
-        <textarea name="Message" id="textarea-message" rows="10" maxlength="500" placeholder="Write your message here"
-          required></textarea>
-          <button type="submit" class="btn" id="bbtn">Send</button>
-        </div>
+      <form class="form-container" id="form" action="https://formspree.io/f/xdobrbdn" method="POST">
         <!-- The input form for the mobile -->
-      <div class="hide">
+    
         <input id="name" name="Name" class="input-name" type="text" placeholder="Text Input" maxlength="30" required>
         <input id="email" name="userEmail" class="input-email" type="email" placeholder="example@gmail.com" required>
-        <textarea name="Message" id="text-message" rows="10" maxlength="500" placeholder="Enter text here"
+        <textarea name="Message" id="message" rows="10" maxlength="500" placeholder="Enter text here"
           required></textarea>
           <button type="submit" class="btn" id="btn">See Project</button>
-      </div>
       <span id="error"></span>
       </form>
     </div>

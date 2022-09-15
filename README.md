@@ -40,8 +40,8 @@ To get a local copy up and running follow these simple example steps.
 #### You should implement the following interactions:
 
 - For this project, you should add the `JavaScript`  `HTML`  `CSS` `linter`.
-- When the user clicks (or taps) the button to check project details, the popup with details about the project appears.
-- When the user clicks (or taps) the close (X) button, the popup disappears.
+- When the user changes the content of any input field, the data is saved to the local storage.
+- When the user loads the page, if there is any data in the local storage the input fields are pre-filled with this data.
 
 <img width="287" alt="image" src="https://user-images.githubusercontent.com/88346506/189676053-9f64f544-0172-41ab-aea8-faedc2077e3c.png">
 ### usege
